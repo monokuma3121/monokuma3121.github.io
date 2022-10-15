@@ -4,13 +4,50 @@
   
     
     <entry>
+      <title>HTML基础知识</title>
+      <link href="/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/HTML%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+      <url>/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/HTML%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端知识点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章：Hello World</title>
-      <link href="/uncategorized/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9AHello-World/"/>
-      <url>/uncategorized/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9AHello-World/</url>
+      <link href="/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9AHello-World/"/>
+      <url>/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9AHello-World/</url>
       
-        <content type="html"><![CDATA[<p>历经了两天多的努力,我的小站终于搭建成功了!</p><p>期间遇到了不少问题,但在学长和搜索引擎的帮助下,都逐一解决,</p><p>撒花!!(￣▽￣)ﾉ</p><p>那么按照程序员之间约定俗成的惯例,第一篇的文章就以HelloWorld为题吧!将来我会不断完善自己的小站,努力把这个小窝捯饬的好玩一些!</p>]]></content>
+        <content type="html"><![CDATA[<p>历经了两天多的努力,我的小站终于搭建成功了!</p><p>期间遇到了不少问题,但在学长和搜索引擎的帮助下,都逐一解决,</p><p>撒花!!(￣ ▽ ￣)ﾉ</p><p>那么按照程序员之间约定俗成的惯例,第一篇的文章就以 HelloWorld 为题吧!将来我会不断完善自己的小站,努力把这个小窝捯饬的好玩一些!</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">say</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>文章大体格式：<br>title: [文章的名字]<br>date: [发布时间]<br>description: [文章内容的概述]<br>categories: [文章分类]<br>tags: [文章标签]<br>(一篇文章的 title 和 date 是必需的，而且必需写在两个—之间。)<br>(写代码的话代码需要写在两个&#96;&#96;&#96;之间)</p><p>(分类：日常记录、前端知识点、前端开发、科技与狠活)<br>(标签：杂谈、node.js、axios、跨域、webpack、vue3，ts……)</p>]]></content>
       
       
+      <categories>
+          
+          <category> 日常记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
       
     </entry>
     
