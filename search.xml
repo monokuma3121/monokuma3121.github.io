@@ -5,10 +5,10 @@
     
     <entry>
       <title></title>
-      <link href="/uncategorized/hello-world/"/>
-      <url>/uncategorized/hello-world/</url>
+      <link href="/uncategorized/HelloWorld/"/>
+      <url>/uncategorized/HelloWorld/</url>
       
-        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: HelloWorld</span><br><span class="line">abbrlink: 2700</span><br><span class="line">date: YYYY-MM-DD HH:mm:ss</span><br></pre></td></tr></table></figure><p>历经了两天多的努力,我的小站终于搭建成功了!</p><p>期间遇到了不少问题,但在学长和搜索引擎的帮助下,都逐一解决,</p><p>撒花!!(￣▽￣)ﾉ</p><p>那么按照程序员之间约定俗成的惯例,第一篇的文章就以HelloWorld为题吧!将来我会不断完善自己的小站,努力把这个小窝捯饬的好玩一些!</p>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">title: hello-world</span><br><span class="line">categories:</span><br><span class="line">  - 一级分类</span><br><span class="line">  - 二级分类可加可不加</span><br><span class="line">abbrlink: 2700</span><br><span class="line">date: YYYY-MM-DD HH:mm:ss</span><br><span class="line">tags: </span><br><span class="line">   - 第一个标签</span><br><span class="line">   - 第二个标签可加可不加</span><br></pre></td></tr></table></figure><p>历经了两天多的努力,我的小站终于搭建成功了!</p><p>期间遇到了不少问题,但在学长和搜索引擎的帮助下,都逐一解决,</p><p>撒花!!(￣▽￣)ﾉ</p><p>那么按照程序员之间约定俗成的惯例,第一篇的文章就以HelloWorld为题吧!将来我会不断完善自己的小站,努力把这个小窝捯饬的好玩一些!</p>]]></content>
       
       
       
