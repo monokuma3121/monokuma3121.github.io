@@ -65,5 +65,5 @@ window.onload = function () {
     return "rgb(" + r + "," + g + "," + b + ")";
   }
   draw();
-  setInterval(draw, 35);
+  setInterval(draw, 30);
 };
