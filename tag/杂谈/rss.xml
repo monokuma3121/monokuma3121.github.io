@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Eucli • Posts by &#34;杂谈&#34; tag</title>
+        <link>https://eucli.top</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 15 Oct 2022 19:59:45 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Oct 2022 19:59:45 +0800</lastBuildDate>
+        <category>JavaScript</category>
+        <category>css</category>
+        <category>HTML</category>
+        <category>MATLAB</category>
+        <category>Nginx</category>
+        <category>Node.js</category>
+        <category>TypeScript</category>
+        <category>axios二次封装</category>
+        <category>Element Plus</category>
+        <category>VueRouter</category>
+        <category>路由</category>
+        <category>vue3</category>
+        <category>pinia</category>
+        <category>vite</category>
+        <category>electron</category>
+        <category>小技巧</category>
+        <category>自动化</category>
+        <category>Vue</category>
+        <category>异步</category>
+        <category>uni-app</category>
+        <category>VueUse</category>
+        <category>杂谈</category>
+        <category>Linux</category>
+        <category>ROOT</category>
+        <category>日常</category>
+        <item>
+            <guid isPermalink="true">https://eucli.top/2022/10/15/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</guid>
+            <title>日常生活</title>
+            <link>https://eucli.top/2022/10/15/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/</link>
+            <category>杂谈</category>
+            <pubDate>Sat, 15 Oct 2022 19:59:45 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>

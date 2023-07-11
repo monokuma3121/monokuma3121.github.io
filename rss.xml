@@ -2,22 +2,41 @@
 <rss version="2.0">
     <channel>
         <title>Eucli</title>
-        <subtitle></subtitle>
-        <icon>https://eucli.top/images/favicon.ico</icon>
         <link>https://eucli.top</link>
-        <author>
-          <name></name>
-        </author>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 05 Jul 2023 12:35:00 +0800</pubDate>
         <lastBuildDate>Wed, 05 Jul 2023 12:35:00 +0800</lastBuildDate>
+        <category>JavaScript</category>
+        <category>css</category>
+        <category>HTML</category>
+        <category>MATLAB</category>
+        <category>Nginx</category>
+        <category>Node.js</category>
+        <category>TypeScript</category>
+        <category>axios二次封装</category>
+        <category>Element Plus</category>
+        <category>VueRouter</category>
+        <category>路由</category>
+        <category>vue3</category>
+        <category>pinia</category>
+        <category>vite</category>
+        <category>electron</category>
+        <category>小技巧</category>
+        <category>自动化</category>
+        <category>Vue</category>
+        <category>异步</category>
+        <category>uni-app</category>
+        <category>VueUse</category>
+        <category>杂谈</category>
+        <category>Linux</category>
+        <category>ROOT</category>
+        <category>日常</category>
         <item>
             <guid isPermalink="true">https://eucli.top/2023/07/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/</guid>
             <title>异步async、await</title>
             <link>https://eucli.top/2023/07/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="异步" scheme="https://eucli.top/tags/%E5%BC%82%E6%AD%A5/" />
+            <category>异步</category>
             <pubDate>Wed, 05 Jul 2023 12:35:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;b 站讲解：&lt;a href=&#34;https://www.bilibili.com/video/BV1WP4y187Tu/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ff247772a62ee9c3b2ed27fa5e4a91e2&#34;&gt;https://www.bilibili.com/video/BV1WP4y187Tu/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ff247772a62ee9c3b2ed27fa5e4a91e2&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;异步&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#异步&#34;&gt;#&lt;/a&gt; 异步&lt;/h1&gt;
@@ -61,8 +80,7 @@ await 等到了它要等的东西，一个 Promise 对象，或者其它值，�
             <guid isPermalink="true">https://eucli.top/2023/05/31/Node.js/</guid>
             <title>Node.js</title>
             <link>https://eucli.top/2023/05/31/Node.js/</link>
-            <category term="后端开发" scheme="https://eucli.top/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="Node.js" scheme="https://eucli.top/tags/Node-js/" />
+            <category>Node.js</category>
             <pubDate>Wed, 31 May 2023 18:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;NodeJS 二三事&lt;/p&gt;
@@ -1141,8 +1159,7 @@ ip 用来标识网络中的设备，实现设备间通信。任何设备只要�
             <guid isPermalink="true">https://eucli.top/2023/05/31/Nginx/</guid>
             <title>Nginx学习</title>
             <link>https://eucli.top/2023/05/31/Nginx/</link>
-            <category term="反向代理" scheme="https://eucli.top/categories/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/" />
-            <category term="Nginx" scheme="https://eucli.top/tags/Nginx/" />
+            <category>Nginx</category>
             <pubDate>Wed, 31 May 2023 10:16:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;nginx&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#nginx&#34;&gt;#&lt;/a&gt; Nginx&lt;/h1&gt;
 &lt;h2 id=&#34;介绍-nginx&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#介绍-nginx&#34;&gt;#&lt;/a&gt; 介绍 Nginx&lt;/h2&gt;
@@ -1336,9 +1353,8 @@ ail_timeout 是故障等待超时时间&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/05/29/%E6%9C%8D%E5%8A%A1%E7%AB%AF/</guid>
             <title>服务端</title>
             <link>https://eucli.top/2023/05/29/%E6%9C%8D%E5%8A%A1%E7%AB%AF/</link>
-            <category term="服务端" scheme="https://eucli.top/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF/" />
-            <category term="Nginx" scheme="https://eucli.top/tags/Nginx/" />
-            <category term="Linux" scheme="https://eucli.top/tags/Linux/" />
+            <category>Nginx</category>
+            <category>Linux</category>
             <pubDate>Mon, 29 May 2023 18:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;学习-pm2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#学习-pm2&#34;&gt;#&lt;/a&gt; 学习 pm2&lt;/h1&gt;
 &lt;h2 id=&#34;pm2-node-应用进程管理器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#pm2-node-应用进程管理器&#34;&gt;#&lt;/a&gt; PM2 Node 应用进程管理器&lt;/h2&gt;
@@ -1504,8 +1520,7 @@ U 盘对应的是 b&lt;br&gt;
             <guid isPermalink="true">https://eucli.top/2023/05/16/CSS/</guid>
             <title>CSS相关</title>
             <link>https://eucli.top/2023/05/16/CSS/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="css" scheme="https://eucli.top/tags/css/" />
+            <category>css</category>
             <pubDate>Tue, 16 May 2023 18:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;tips&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tips&#34;&gt;#&lt;/a&gt; Tips&lt;/h1&gt;
 &lt;ul&gt;
@@ -1644,8 +1659,7 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/05/07/element%20plus%E4%B9%8BTable%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC/</guid>
             <title>Element Plus之Table合并单元格</title>
             <link>https://eucli.top/2023/05/07/element%20plus%E4%B9%8BTable%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="Element Plus" scheme="https://eucli.top/tags/Element-Plus/" />
+            <category>Element Plus</category>
             <pubDate>Sun, 07 May 2023 17:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/aerfazhe/p/17051696.html&#34;&gt;https://www.cnblogs.com/aerfazhe/p/17051696.html&lt;/a&gt;&lt;/p&gt;
  ]]></description>
@@ -1654,13 +1668,11 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/05/03/%E3%80%90%E5%B0%8F%E6%BB%A1%E3%80%91Vue3%20+%20vite%20+%20Ts%20+%20pinia%20+%20%E5%AE%9E%E6%88%98%20+%20%E6%BA%90%E7%A0%81%20+electron/</guid>
             <title>【小满】Vue3 + vite + Ts + pinia + 实战 + 源码 +electron</title>
             <link>https://eucli.top/2023/05/03/%E3%80%90%E5%B0%8F%E6%BB%A1%E3%80%91Vue3%20+%20vite%20+%20Ts%20+%20pinia%20+%20%E5%AE%9E%E6%88%98%20+%20%E6%BA%90%E7%A0%81%20+electron/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="项目实战" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
-            <category term="vue3" scheme="https://eucli.top/tags/vue3/" />
-            <category term="pinia" scheme="https://eucli.top/tags/pinia/" />
-            <category term="vite" scheme="https://eucli.top/tags/vite/" />
-            <category term="electron" scheme="https://eucli.top/tags/electron/" />
+            <category>TypeScript</category>
+            <category>vue3</category>
+            <category>pinia</category>
+            <category>vite</category>
+            <category>electron</category>
             <pubDate>Wed, 03 May 2023 10:46:00 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
@@ -1668,7 +1680,6 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/05/03/%E5%B7%A5%E5%A4%A7%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C/</guid>
             <title>工大生存手册</title>
             <link>https://eucli.top/2023/05/03/%E5%B7%A5%E5%A4%A7%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C/</link>
-            <category term="日常生活" scheme="https://eucli.top/categories/%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB/" />
             <pubDate>Wed, 03 May 2023 10:39:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;更新计划尚不明确……&lt;/p&gt;
  ]]></description>
@@ -1677,8 +1688,7 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/04/17/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
             <title>前端自动化</title>
             <link>https://eucli.top/2023/04/17/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="自动化" scheme="https://eucli.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" />
+            <category>自动化</category>
             <pubDate>Mon, 17 Apr 2023 12:35:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;自动化插件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自动化插件&#34;&gt;#&lt;/a&gt; 自动化插件&lt;/h1&gt;
 &lt;h2 id=&#34;unplugin-auto-import&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unplugin-auto-import&#34;&gt;#&lt;/a&gt;  &lt;code&gt;unplugin-auto-import&lt;/code&gt;&lt;/h2&gt;
@@ -1710,8 +1720,7 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/04/16/20%E4%B8%AAJavaScript%E7%BB%8F%E5%85%B8%E6%A1%88%E4%BE%8B/</guid>
             <title>20个JavaScript经典案例</title>
             <link>https://eucli.top/2023/04/16/20%E4%B8%AAJavaScript%E7%BB%8F%E5%85%B8%E6%A1%88%E4%BE%8B/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="JavaScript" scheme="https://eucli.top/tags/JavaScript/" />
+            <category>JavaScript</category>
             <pubDate>Sun, 16 Apr 2023 21:44:34 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
@@ -1719,8 +1728,7 @@ CSS 原子化的优缺点:&lt;/li&gt;
             <guid isPermalink="true">https://eucli.top/2023/04/16/%E3%80%90%E6%A1%88%E4%BE%8B%E3%80%91%E6%B3%9B%E5%9E%8B%E5%B0%81%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
             <title>【案例】泛型封装数据库</title>
             <link>https://eucli.top/2023/04/16/%E3%80%90%E6%A1%88%E4%BE%8B%E3%80%91%E6%B3%9B%E5%9E%8B%E5%B0%81%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
+            <category>TypeScript</category>
             <pubDate>Sun, 16 Apr 2023 21:44:34 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;功能：定义一个操作数据库的库，支持 mysql、mongoDB&lt;br&gt;
  要求：mysql、mongoDB 功能是一样的，都有增删改查（insert delete update select）方法&lt;br&gt;
@@ -1731,12 +1739,56 @@ CSS 原子化的优缺点:&lt;/li&gt;
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://eucli.top/2023/04/14/axios%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85/</guid>
+            <title>axios二次封装</title>
+            <link>https://eucli.top/2023/04/14/axios%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85/</link>
+            <category>axios二次封装</category>
+            <pubDate>Fri, 14 Apr 2023 20:58:34 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前端-后端-数据库间的数据传输&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端-后端-数据库间的数据传输&#34;&gt;#&lt;/a&gt; 前端 - 后端 - 数据库间的数据传输&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/test/%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92.png&#34; alt=&#34;(数据交互)&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;前端请求流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端请求流程&#34;&gt;#&lt;/a&gt; 前端请求流程&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/test/%E6%8B%BF%E5%88%B0%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3.png&#34; alt=&#34;(前端请求流程)&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;不进行封装直接使用-axios-一般有两种方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#不进行封装直接使用-axios-一般有两种方式&#34;&gt;#&lt;/a&gt; 不进行封装直接使用 axios 一般有两种方式：&lt;/h1&gt;
+&lt;h2 id=&#34;1-axiosget-axiospost&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-axiosget-axiospost&#34;&gt;#&lt;/a&gt; 1.  &lt;code&gt;axios.get()&lt;/code&gt; 、 &lt;code&gt;axios.post()&lt;/code&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;axios.&lt;span class=&#34;title function_&#34;&gt;get&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;url?参数1=值&amp;amp;参数2=值&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;axios.&lt;span class=&#34;title function_&#34;&gt;post&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;url&amp;#x27;&lt;/span&gt;,&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  参数&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;:值，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  参数&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;:值&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;2-axios&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-axios&#34;&gt;#&lt;/a&gt; 2.  &lt;code&gt;axios(&amp;#123;&amp;#125;)&lt;/code&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;axios&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;url&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;请求的路径&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;method&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;请求的方式，默认是get&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;params&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//get请求方式：前端给后端传递的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;data&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//post请求方式：前端给后端传递的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;headers&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//自定义请求头&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;timeout&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;1000&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;//如果请求超过timeout的值，请求会中断&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;responseType&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;默认是json&amp;quot;&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;// 表示浏览器将要响应的数据类型&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;2-实际开发情况下的网络请求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-实际开发情况下的网络请求&#34;&gt;#&lt;/a&gt; 2. 实际开发情况下的网络请求&lt;/h1&gt;
+&lt;h1 id=&#34;实际开发中前端请求接口会出现跨域&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#实际开发中前端请求接口会出现跨域&#34;&gt;#&lt;/a&gt; 实际开发中，前端请求接口会出现跨域&lt;/h1&gt;
+&lt;p&gt;控制台打印 &lt;code&gt;CORS   &amp;quot;NO &#39;Access-Control-Allow-Origin&#39; ……&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决跨域前端解决-设置代理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决跨域前端解决-设置代理&#34;&gt;#&lt;/a&gt; 解决跨域：前端解决 ——&amp;gt; 设置代理&lt;/h2&gt;
+&lt;p&gt;vue 项目，在  &lt;code&gt;vue.config.js&lt;/code&gt;  中配置  &lt;code&gt;devServer&lt;/code&gt; &lt;br&gt;
+ 配置参考：&lt;a href=&#34;https://cli.vuejs.org/zh/config&#34;&gt;https://cli.vuejs.org/zh/config&lt;/a&gt;&lt;br&gt;
+ 说明：如果你的前端应用和后端 API 服务器没有运行在同一个主机上，你需要在 &lt;code&gt;开发环境下&lt;/code&gt; 将 API 请求代理到 API 服务器&lt;br&gt;
+具体配置，在  &lt;code&gt;vue.config.js&lt;/code&gt;  文件中加入：&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;devServer&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;proxy&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;http://localhost:4000&amp;quot;&lt;/span&gt;; &lt;span class=&#34;comment&#34;&gt;//后端API服务器地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;代理之后  &lt;code&gt;axios&lt;/code&gt;  请求的时候就不用写地址全拼了，直接写代理地址后面的就行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;主要的文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主要的文件&#34;&gt;#&lt;/a&gt; 主要的文件&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src/utils/request.js&lt;/code&gt;  `：用于二次封装 axios&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/api&lt;/code&gt;  ：用于统一管理接口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/.env.development&lt;/code&gt;  ：开发环境&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/.env.production&lt;/code&gt;  ：生产环境&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vite.config.js&lt;/code&gt; ：配置代理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前端请求接口的封装axios-二次封装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端请求接口的封装axios-二次封装&#34;&gt;#&lt;/a&gt; 前端请求接口的封装 (axios 二次封装)&lt;/h2&gt;
+&lt;p&gt;在  &lt;code&gt;src/utils/request.js:&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**1.引入axios */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; axios &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;axios&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**2.创建axios实例 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; instance = axios.&lt;span class=&#34;title function_&#34;&gt;create&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;baseURL&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://some-domain.com/api/&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;timeout&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;1000&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;headers&lt;/span&gt;: &amp;#123;&lt;span class=&#34;string&#34;&gt;&amp;#x27;X-Custom-Header&amp;#x27;&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;foobar&amp;#x27;&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**3.请求拦截器 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 创建请求拦截  前端给后端的东西(没有到后端)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;instance.&lt;span class=&#34;property&#34;&gt;interceptors&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;request&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;use&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;config&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;/**在发送请求之前做些什么==&amp;gt; 判断用户登录状态 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; config;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;title class_&#34;&gt;Promise&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;reject&lt;/span&gt;(error);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**4.响应拦截器 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 创建响应拦截  后端给前端的东西&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;instance.&lt;span class=&#34;property&#34;&gt;interceptors&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;response&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;use&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; data = res.&lt;span class=&#34;property&#34;&gt;data&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 处理自己的业务逻辑，比如判断 token 是否过期等等 request&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 代码块&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; data;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; message = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Promise&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;reject&lt;/span&gt;(message);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;default&lt;/span&gt; instance;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;api-接口统一管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#api-接口统一管理&#34;&gt;#&lt;/a&gt; api 接口统一管理&lt;/h2&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; request &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;@/utils/request&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//查询课程接口&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; courseSearch = &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;data&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;request&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;url&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;method&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;#x27;post&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data &lt;span class=&#34;comment&#34;&gt;//因为不同的页面对参数配置的值的需求不一样，所以作为形参让用户自己传过来 get请求是params，post请求是data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;使用请求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用请求&#34;&gt;#&lt;/a&gt; 使用请求&lt;/h2&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//某个需要用到“查询课程接口”的vue文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; &amp;#123;courseSearch&amp;#125; &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;@/api/course.js&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;……&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;courseSearch&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;comment&#34;&gt;//传入需求的参数的值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;pageNum&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;pageSize&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;).&lt;span class=&#34;title function_&#34;&gt;then&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;……&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://eucli.top/2023/04/14/VueRouter/</guid>
             <title>VueRouter</title>
             <link>https://eucli.top/2023/04/14/VueRouter/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="VueRouter" scheme="https://eucli.top/tags/VueRouter/" />
-            <category term="路由" scheme="https://eucli.top/tags/%E8%B7%AF%E7%94%B1/" />
+            <category>VueRouter</category>
+            <category>路由</category>
             <pubDate>Fri, 14 Apr 2023 20:58:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vue-router&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#vue-router&#34;&gt;#&lt;/a&gt; Vue Router&lt;/h1&gt;
 &lt;ul&gt;
@@ -2087,57 +2139,10 @@ scrollBehavior 返回滚动位置的对象信息，长这样： &lt;code&gt;&amp
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://eucli.top/2023/04/14/axios%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85/</guid>
-            <title>axios二次封装</title>
-            <link>https://eucli.top/2023/04/14/axios%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="axios二次封装" scheme="https://eucli.top/tags/axios%E4%BA%8C%E6%AC%A1%E5%B0%81%E8%A3%85/" />
-            <pubDate>Fri, 14 Apr 2023 20:58:34 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;前端-后端-数据库间的数据传输&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端-后端-数据库间的数据传输&#34;&gt;#&lt;/a&gt; 前端 - 后端 - 数据库间的数据传输&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/test/%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92.png&#34; alt=&#34;(数据交互)&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;前端请求流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端请求流程&#34;&gt;#&lt;/a&gt; 前端请求流程&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/test/%E6%8B%BF%E5%88%B0%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3.png&#34; alt=&#34;(前端请求流程)&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;不进行封装直接使用-axios-一般有两种方式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#不进行封装直接使用-axios-一般有两种方式&#34;&gt;#&lt;/a&gt; 不进行封装直接使用 axios 一般有两种方式：&lt;/h1&gt;
-&lt;h2 id=&#34;1-axiosget-axiospost&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-axiosget-axiospost&#34;&gt;#&lt;/a&gt; 1.  &lt;code&gt;axios.get()&lt;/code&gt; 、 &lt;code&gt;axios.post()&lt;/code&gt;&lt;/h2&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;axios.&lt;span class=&#34;title function_&#34;&gt;get&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;url?参数1=值&amp;amp;参数2=值&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;axios.&lt;span class=&#34;title function_&#34;&gt;post&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;url&amp;#x27;&lt;/span&gt;,&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  参数&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;:值，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  参数&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;:值&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;2-axios&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-axios&#34;&gt;#&lt;/a&gt; 2.  &lt;code&gt;axios(&amp;#123;&amp;#125;)&lt;/code&gt;&lt;/h2&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;axios&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;url&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;请求的路径&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;method&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;请求的方式，默认是get&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;params&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//get请求方式：前端给后端传递的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;data&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//post请求方式：前端给后端传递的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;headers&lt;/span&gt;: &amp;#123;&amp;#125;, &lt;span class=&#34;comment&#34;&gt;//自定义请求头&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;timeout&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;1000&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;//如果请求超过timeout的值，请求会中断&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;responseType&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;默认是json&amp;quot;&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;// 表示浏览器将要响应的数据类型&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h1 id=&#34;2-实际开发情况下的网络请求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-实际开发情况下的网络请求&#34;&gt;#&lt;/a&gt; 2. 实际开发情况下的网络请求&lt;/h1&gt;
-&lt;h1 id=&#34;实际开发中前端请求接口会出现跨域&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#实际开发中前端请求接口会出现跨域&#34;&gt;#&lt;/a&gt; 实际开发中，前端请求接口会出现跨域&lt;/h1&gt;
-&lt;p&gt;控制台打印 &lt;code&gt;CORS   &amp;quot;NO &#39;Access-Control-Allow-Origin&#39; ……&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;解决跨域前端解决-设置代理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决跨域前端解决-设置代理&#34;&gt;#&lt;/a&gt; 解决跨域：前端解决 ——&amp;gt; 设置代理&lt;/h2&gt;
-&lt;p&gt;vue 项目，在  &lt;code&gt;vue.config.js&lt;/code&gt;  中配置  &lt;code&gt;devServer&lt;/code&gt; &lt;br&gt;
- 配置参考：&lt;a href=&#34;https://cli.vuejs.org/zh/config&#34;&gt;https://cli.vuejs.org/zh/config&lt;/a&gt;&lt;br&gt;
- 说明：如果你的前端应用和后端 API 服务器没有运行在同一个主机上，你需要在 &lt;code&gt;开发环境下&lt;/code&gt; 将 API 请求代理到 API 服务器&lt;br&gt;
-具体配置，在  &lt;code&gt;vue.config.js&lt;/code&gt;  文件中加入：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;attr&#34;&gt;devServer&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;proxy&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;quot;http://localhost:4000&amp;quot;&lt;/span&gt;; &lt;span class=&#34;comment&#34;&gt;//后端API服务器地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;代理之后  &lt;code&gt;axios&lt;/code&gt;  请求的时候就不用写地址全拼了，直接写代理地址后面的就行&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;主要的文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主要的文件&#34;&gt;#&lt;/a&gt; 主要的文件&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;src/utils/request.js&lt;/code&gt;  `：用于二次封装 axios&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;src/api&lt;/code&gt;  ：用于统一管理接口&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;src/.env.development&lt;/code&gt;  ：开发环境&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;src/.env.production&lt;/code&gt;  ：生产环境&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;vite.config.js&lt;/code&gt; ：配置代理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;前端请求接口的封装axios-二次封装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端请求接口的封装axios-二次封装&#34;&gt;#&lt;/a&gt; 前端请求接口的封装 (axios 二次封装)&lt;/h2&gt;
-&lt;p&gt;在  &lt;code&gt;src/utils/request.js:&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**1.引入axios */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; axios &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;axios&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**2.创建axios实例 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; instance = axios.&lt;span class=&#34;title function_&#34;&gt;create&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;baseURL&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://some-domain.com/api/&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;timeout&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;1000&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;headers&lt;/span&gt;: &amp;#123;&lt;span class=&#34;string&#34;&gt;&amp;#x27;X-Custom-Header&amp;#x27;&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;foobar&amp;#x27;&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**3.请求拦截器 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 创建请求拦截  前端给后端的东西(没有到后端)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;instance.&lt;span class=&#34;property&#34;&gt;interceptors&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;request&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;use&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;config&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;/**在发送请求之前做些什么==&amp;gt; 判断用户登录状态 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; config;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;title class_&#34;&gt;Promise&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;reject&lt;/span&gt;(error);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/**4.响应拦截器 */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 创建响应拦截  后端给前端的东西&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;instance.&lt;span class=&#34;property&#34;&gt;interceptors&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;response&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;use&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; data = res.&lt;span class=&#34;property&#34;&gt;data&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 处理自己的业务逻辑，比如判断 token 是否过期等等 request&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;// 代码块&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; data;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;error&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;let&lt;/span&gt; message = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Promise&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;reject&lt;/span&gt;(message);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;default&lt;/span&gt; instance;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;api-接口统一管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#api-接口统一管理&#34;&gt;#&lt;/a&gt; api 接口统一管理&lt;/h2&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; request &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;@/utils/request&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//查询课程接口&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;export&lt;/span&gt; courseSearch = &lt;span class=&#34;function&#34;&gt;(&lt;span class=&#34;params&#34;&gt;data&lt;/span&gt;) =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;request&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;url&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;method&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;#x27;post&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    data &lt;span class=&#34;comment&#34;&gt;//因为不同的页面对参数配置的值的需求不一样，所以作为形参让用户自己传过来 get请求是params，post请求是data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;使用请求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用请求&#34;&gt;#&lt;/a&gt; 使用请求&lt;/h2&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//某个需要用到“查询课程接口”的vue文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; &amp;#123;courseSearch&amp;#125; &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;@/api/course.js&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;……&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;courseSearch&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;comment&#34;&gt;//传入需求的参数的值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;pageNum&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;pageSize&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;).&lt;span class=&#34;title function_&#34;&gt;then&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;……&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://eucli.top/2023/04/12/TypeScript%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</guid>
             <title>TypeScript中文文档</title>
             <link>https://eucli.top/2023/04/12/TypeScript%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
+            <category>TypeScript</category>
             <pubDate>Wed, 12 Apr 2023 18:32:23 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;中文手册&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#中文手册&#34;&gt;#&lt;/a&gt; &lt;strong&gt;中文手册&lt;/strong&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;基础类型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础类型&#34;&gt;#&lt;/a&gt; 基础类型&lt;/h1&gt;
@@ -2331,8 +2336,7 @@ scrollBehavior 返回滚动位置的对象信息，长这样： &lt;code&gt;&amp
             <guid isPermalink="true">https://eucli.top/2023/04/12/MATLAB/</guid>
             <title>MATLAB</title>
             <link>https://eucli.top/2023/04/12/MATLAB/</link>
-            <category term="数学建模" scheme="https://eucli.top/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" />
-            <category term="MATLAB" scheme="https://eucli.top/tags/MATLAB/" />
+            <category>MATLAB</category>
             <pubDate>Wed, 12 Apr 2023 10:16:34 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
@@ -2340,9 +2344,7 @@ scrollBehavior 返回滚动位置的对象信息，长这样： &lt;code&gt;&amp
             <guid isPermalink="true">https://eucli.top/2023/04/04/%E4%BC%98%E9%9B%85%E7%9A%84%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81/</guid>
             <title>优雅的单行代码</title>
             <link>https://eucli.top/2023/04/04/%E4%BC%98%E9%9B%85%E7%9A%84%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="优雅" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E4%BC%98%E9%9B%85/" />
-            <category term="JavaScript" scheme="https://eucli.top/tags/JavaScript/" />
+            <category>JavaScript</category>
             <pubDate>Tue, 04 Apr 2023 12:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;数组去重&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数组去重&#34;&gt;#&lt;/a&gt; &lt;strong&gt;数组去重&lt;/strong&gt;&lt;/h2&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;uniqueArr&lt;/span&gt; = (&lt;span class=&#34;params&#34;&gt;arr&lt;/span&gt;) =&amp;gt; [...&lt;span class=&#34;keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Set&lt;/span&gt;(arr)];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;title function_&#34;&gt;uniqueArr&lt;/span&gt;([&lt;span class=&#34;string&#34;&gt;&amp;quot;前端&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;js&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;html&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;js&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;css&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;html&amp;quot;&lt;/span&gt;]));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//[&amp;#x27;前端&amp;#x27;,&amp;#x27;js&amp;#x27;,&amp;#x27;html&amp;#x27;,&amp;#x27;css&amp;#x27;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -2403,8 +2405,7 @@ scrollBehavior 返回滚动位置的对象信息，长这样： &lt;code&gt;&amp
             <guid isPermalink="true">https://eucli.top/2023/03/28/TS%E7%99%BE%E7%BB%83%E9%A3%9E%E5%8D%87/</guid>
             <title>TS百练飞升</title>
             <link>https://eucli.top/2023/03/28/TS%E7%99%BE%E7%BB%83%E9%A3%9E%E5%8D%87/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
+            <category>TypeScript</category>
             <pubDate>Tue, 28 Mar 2023 18:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;什么时候用ts写法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么时候用ts写法&#34;&gt;#&lt;/a&gt; 什么时候用 ts 写法？&lt;/h2&gt;
 &lt;p&gt;类型能推导出来的时候不用写 ts，推导不出来的时候再写&lt;/p&gt;
@@ -2972,13 +2973,11 @@ type 是类型别名，用于给各种类型定义别名，让 TS 写起来更�
             <guid isPermalink="true">https://eucli.top/2023/03/24/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%EF%BC%9AVite%20+%20Vue3%20+%20Typescript%20+%20Pinia%20+%20Vueuse%E9%A1%B9%E7%9B%AE/</guid>
             <title>快速搭建：Vite + Vue3 + Typescript + Pinia + Vueuse项目</title>
             <link>https://eucli.top/2023/03/24/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%EF%BC%9AVite%20+%20Vue3%20+%20Typescript%20+%20Pinia%20+%20Vueuse%E9%A1%B9%E7%9B%AE/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="项目实战" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
-            <category term="vue3" scheme="https://eucli.top/tags/vue3/" />
-            <category term="pinia" scheme="https://eucli.top/tags/pinia/" />
-            <category term="vite" scheme="https://eucli.top/tags/vite/" />
-            <category term="VueUse" scheme="https://eucli.top/tags/VueUse/" />
+            <category>TypeScript</category>
+            <category>vue3</category>
+            <category>pinia</category>
+            <category>vite</category>
+            <category>VueUse</category>
             <pubDate>Fri, 24 Mar 2023 18:01:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vite-vue3-typescript-pinia-vueuse&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#vite-vue3-typescript-pinia-vueuse&#34;&gt;#&lt;/a&gt; Vite + Vue3 + Typescript + Pinia + Vueuse&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -3259,8 +3258,7 @@ type 是类型别名，用于给各种类型定义别名，让 TS 写起来更�
             <guid isPermalink="true">https://eucli.top/2023/03/15/Vue3%E8%A7%82%E5%AF%9F%E7%AC%94%E8%AE%B0/</guid>
             <title>Vue3观察笔记</title>
             <link>https://eucli.top/2023/03/15/Vue3%E8%A7%82%E5%AF%9F%E7%AC%94%E8%AE%B0/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="vue3" scheme="https://eucli.top/tags/vue3/" />
+            <category>vue3</category>
             <pubDate>Wed, 15 Mar 2023 18:20:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;介绍-vue&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#介绍-vue&#34;&gt;#&lt;/a&gt; 介绍 vue&lt;/h1&gt;
 &lt;p&gt;Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。&lt;/p&gt;
@@ -4264,14 +4262,11 @@ mapState 的方式一：对象类型&lt;br&gt;
             <guid isPermalink="true">https://eucli.top/2023/03/10/%E6%8B%9B%E7%94%9F%E6%8F%90%E6%8A%A5%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE/</guid>
             <title>招生提报系统</title>
             <link>https://eucli.top/2023/03/10/%E6%8B%9B%E7%94%9F%E6%8F%90%E6%8A%A5%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE/</link>
-            <category term="前端开发" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" />
-            <category term="项目实战" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/" />
-            <category term="橙果工作室开发组" scheme="https://eucli.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E6%A9%99%E6%9E%9C%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%BC%80%E5%8F%91%E7%BB%84/" />
-            <category term="TypeScript" scheme="https://eucli.top/tags/TypeScript/" />
-            <category term="Element Plus" scheme="https://eucli.top/tags/Element-Plus/" />
-            <category term="vue3" scheme="https://eucli.top/tags/vue3/" />
-            <category term="pinia" scheme="https://eucli.top/tags/pinia/" />
-            <category term="vite" scheme="https://eucli.top/tags/vite/" />
+            <category>TypeScript</category>
+            <category>Element Plus</category>
+            <category>vue3</category>
+            <category>pinia</category>
+            <category>vite</category>
             <pubDate>Fri, 10 Mar 2023 18:45:34 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;在开发组混了那么久，本菜狗终于要参与项目了吗，虽然只是蹭项目，虽然这次的技术栈我一个也不熟悉，但是扑街就是蜜汁自信嗷 ┗|｀ O′|┛ ~~&lt;br&gt;
  希望能在这次的项目开发中学到些东西吧，毕竟都大二下学期了，天天被卷的焦虑，再不好好学就真的要去搬砖廖～&lt;/p&gt;

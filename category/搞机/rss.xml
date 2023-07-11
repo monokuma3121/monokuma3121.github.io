@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Eucli • Posts by &#34;搞机&#34; category</title>
+        <link>https://eucli.top</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 04 Jan 2023 20:49:45 +0800</pubDate>
+        <lastBuildDate>Wed, 04 Jan 2023 20:49:45 +0800</lastBuildDate>
+        <category>JavaScript</category>
+        <category>css</category>
+        <category>HTML</category>
+        <category>MATLAB</category>
+        <category>Nginx</category>
+        <category>Node.js</category>
+        <category>TypeScript</category>
+        <category>axios二次封装</category>
+        <category>Element Plus</category>
+        <category>VueRouter</category>
+        <category>路由</category>
+        <category>vue3</category>
+        <category>pinia</category>
+        <category>vite</category>
+        <category>electron</category>
+        <category>小技巧</category>
+        <category>自动化</category>
+        <category>Vue</category>
+        <category>异步</category>
+        <category>uni-app</category>
+        <category>VueUse</category>
+        <category>杂谈</category>
+        <category>Linux</category>
+        <category>ROOT</category>
+        <category>日常</category>
+        <item>
+            <guid isPermalink="true">https://eucli.top/2023/01/04/%E7%8E%A9%E6%9C%BA%E9%82%A3%E4%BA%9B%E4%BA%8B%E4%B9%8B%E4%B8%80%EF%BC%9A%E8%A7%A3%E9%94%81BL/</guid>
+            <title>玩机那些事之一：解锁BL</title>
+            <link>https://eucli.top/2023/01/04/%E7%8E%A9%E6%9C%BA%E9%82%A3%E4%BA%9B%E4%BA%8B%E4%B9%8B%E4%B8%80%EF%BC%9A%E8%A7%A3%E9%94%81BL/</link>
+            <category>ROOT</category>
+            <pubDate>Wed, 04 Jan 2023 20:49:45 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;我们在刷到一些安卓手机玩机魔改类的视频中，可能有些朋友听的一头雾水，什么 “root”“bootloader”“recovery”“内核”“面具”“三清、四清” 之类的，往往对此感到不明觉厉，本系列博客就是结合博主自身的玩机教程，带大家科普一下玩机领域的基本概念和一些操作。&lt;br&gt;
+前排提示：玩机需谨慎，一不小心手机可能变砖！&lt;/p&gt;
+&lt;p&gt;众所周知，一部手机出厂搭载的官方系统，其首要目标便是安全稳定，具有纯净（广告眼花缭乱）、功能（找不到功能）、美观（丑土乱）、流畅（卡顿不跟手）、稳定（闪退死机）、安全（密码泄露）等诸多优点，因此厂家希望用户不要乱搞，所有出厂的系统用户权限比较低，很多修改都做不了，如果我们要想玩机，第一步就是提高权限。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在安卓系统中一共有三种权限，第一种是软件权限（这里指的是第三方软件），它们的权限都是最低的，使用的时候会先向用户发送请求，需要经过用户同意才能使用。&lt;/li&gt;
+&lt;li&gt;第二种是用户权限，比如设定锁屏密码，重启手机，卸载第三方软件等操作，这些操作是普通软件做不到的，因此用户权限比第三方软件权限高。&lt;/li&gt;
+&lt;li&gt;第三种权限，也是最高的权限，便是超级用户权限，我们通常也称之为 ROOT 权限。拥有这类权限便可以完全控制手机，去实现手机系统本不开放的功能，比如修改手机型号，卸载系统软件，甚至实现对硬件的控制（修改 CPU 调度、对 GPU 超频）。&lt;br&gt;
+因此，如果我们想要解除官方系统的种种限制，真正的成为手机的主人，首先就要获取 ROOT 权限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安卓手机的存储中包含了数个分区，其中有一个分区叫做 boot 分区，存放有启动和引导文件，包含了操作系统的 Kernel（内核）和 Ramdisk（虚拟内存）。而安卓 root 的操作就是修改 boot 分区。&lt;br&gt;
+在此之前，我们首先需要介绍一下 bootloader。我们简单翻译一下，bootloader 顾名思义就是引导加载器，在你长按电源键开机的那一刻起，bootloader 就开始工作了，这段时间会初始化硬件设备，引导操作系统内核（boot 分区）。在引导后期我们可以选择进入一个叫 fastboot 的阶段，也即很多玩机发烧友说的 “刷机模式”，&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

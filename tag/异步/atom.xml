@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://eucli.top</id>
+    <title>Eucli • Posts by &#34;异步&#34; tag</title>
+    <link href="https://eucli.top" />
+    <updated>2023-07-05T04:35:00.000Z</updated>
+    <category term="JavaScript" />
+    <category term="css" />
+    <category term="HTML" />
+    <category term="MATLAB" />
+    <category term="Nginx" />
+    <category term="Node.js" />
+    <category term="TypeScript" />
+    <category term="axios二次封装" />
+    <category term="Element Plus" />
+    <category term="VueRouter" />
+    <category term="路由" />
+    <category term="vue3" />
+    <category term="pinia" />
+    <category term="vite" />
+    <category term="electron" />
+    <category term="小技巧" />
+    <category term="自动化" />
+    <category term="Vue" />
+    <category term="异步" />
+    <category term="uni-app" />
+    <category term="VueUse" />
+    <category term="杂谈" />
+    <category term="Linux" />
+    <category term="ROOT" />
+    <category term="日常" />
+    <entry>
+        <id>https://eucli.top/2023/07/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/</id>
+        <title>异步async、await</title>
+        <link rel="alternate" href="https://eucli.top/2023/07/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/"/>
+        <content type="html">&lt;p&gt;b 站讲解：&lt;a href=&#34;https://www.bilibili.com/video/BV1WP4y187Tu/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ff247772a62ee9c3b2ed27fa5e4a91e2&#34;&gt;https://www.bilibili.com/video/BV1WP4y187Tu/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ff247772a62ee9c3b2ed27fa5e4a91e2&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;异步&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#异步&#34;&gt;#&lt;/a&gt; 异步&lt;/h1&gt;
+&lt;p&gt;js 中异步有两种方式实现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;回调函数，如 setTimeOut。但是会回调地狱&lt;/li&gt;
+&lt;li&gt;Promise。“承诺”：承诺会在未来的某个时刻返回数据。链式调用，避免代码的层层嵌套&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;asyncawait是什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#asyncawait是什么&#34;&gt;#&lt;/a&gt; async/await 是什么&lt;/h1&gt;
+&lt;p&gt;async/await 是 ES2017 (ES8) 提出的基于 Promise 的解决异步的最终方案，是一个语法糖。&lt;br&gt;
+async 是 “异步” 的简写，而 await 可以认为是 async wait 的简写。所以应该很好理解 async 用于申明一个 function 是异步的，而 await 用于等待一个异步方法执行完成。&lt;/p&gt;
+&lt;p&gt;一个问题：await 只能出现在 async 函数中，那这个 async 函数应该怎么调用？如果需要通过 await 来调用一个 async 函数，那这个调用的外面必须得再包一个 async 函数，然后…… 进入死循环，永无出头之日……&lt;br&gt;
+async 函数返回的是一个 Promise 对象，所以在最外层不能用 await 获取其返回值的情况下，我们当然应该用原来的方式：then () 链来处理这个 Promise 对象&lt;/p&gt;
+&lt;h2 id=&#34;async&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#async&#34;&gt;#&lt;/a&gt; async&lt;/h2&gt;
+&lt;p&gt;async 是一个加在函数前的修饰符，被 async 定义的函数会默认返回一个 Promise 对象 resolve 的值。因此对 async 函数可以直接 then，返回值就是 then 方法传入的函数。&lt;/p&gt;
+&lt;h2 id=&#34;await&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#await&#34;&gt;#&lt;/a&gt; await&lt;/h2&gt;
+&lt;p&gt;await 也是一个修饰符，只能放在 async 定义的函数内。可以理解为&lt;strong&gt;等待&lt;/strong&gt;。可以不再使用 then 直接使用 await&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;await 到底在等啥？&lt;br&gt;
+一般来说，都认为 await 是在等待一个 async 函数完成。不过按语法说明，await 等待的是一个表达式，这个表达式的计算结果是 Promise 对象或者其它值（换句话说，就是没有特殊限定）。&lt;br&gt;
+因为 async 函数返回一个 Promise 对象，所以 await 可以用于等待一个 async 函数的返回值 —— 这也可以说是 await 在等 async 函数，但要清楚，它等的实际是一个返回值。注意到 await 不仅仅用于等 Promise 对象，它可以等任意表达式的结果，所以，await 后面实际是可以接普通函数调用或者直接量的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;await 等到了要等的，然后呢？&lt;br&gt;
+await 等到了它要等的东西，一个 Promise 对象，或者其它值，然后呢？我不得不先说，await 是个运算符，用于组成表达式，await 表达式的运算结果取决于它等的东西。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;如果它等到的不是一个 Promise 对象，那 await 表达式的运算结果就是它等到的东西。&lt;/li&gt;
+&lt;li&gt;如果它等到的是一个 Promise 对象，await 就忙起来了，它会阻塞后面的代码，等着 Promise 对象 resolve，然后得到 resolve 的值，作为 await 表达式的运算结果。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;看到上面的阻塞一词，心慌了吧…… 放心，这就是 await 必须用在 async 函数中的原因。async 函数调用不会造成阻塞，它内部所有的阻塞都被封装在一个 Promise 对象中异步执行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;——————————————————&lt;br&gt;
+ 使用 async 和 await 可以让我们写出更清晰、更容易理解的异步代码，有了它们之后，我们几乎不再需要使用底层的 Promise 对象，包括调用它的 then (),catch () 函数等等&lt;/p&gt;
+</content>
+        <category term="异步" />
+        <updated>2023-07-05T04:35:00.000Z</updated>
+    </entry>
+</feed>
