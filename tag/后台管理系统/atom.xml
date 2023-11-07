@@ -6,13 +6,13 @@
     <updated>2023-10-11T13:45:48.000Z</updated>
     <category term="CSS" />
     <category term="JS" />
+    <category term="nodejs" />
     <category term="Nginx" />
     <category term="React" />
-    <category term="nodejs" />
     <category term="TS" />
     <category term="算法" />
-    <category term="axios" />
     <category term="vuerouter" />
+    <category term="axios" />
     <category term="express" />
     <category term="Foo" />
     <category term="Bar" />
@@ -21,8 +21,8 @@
     <category term="自动化" />
     <category term="异步" />
     <category term="小程序" />
-    <category term="快速搭建" />
     <category term="服务端" />
+    <category term="快速搭建" />
     <category term="计算机网络" />
     <category term="后台管理系统" />
     <entry>

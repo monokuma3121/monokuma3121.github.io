@@ -9,13 +9,13 @@
         <lastBuildDate>Tue, 07 Nov 2023 21:45:48 +0800</lastBuildDate>
         <category>CSS</category>
         <category>JS</category>
+        <category>nodejs</category>
         <category>Nginx</category>
         <category>React</category>
-        <category>nodejs</category>
         <category>TS</category>
         <category>算法</category>
-        <category>axios</category>
         <category>vuerouter</category>
+        <category>axios</category>
         <category>express</category>
         <category>Foo</category>
         <category>Bar</category>
@@ -24,8 +24,8 @@
         <category>自动化</category>
         <category>异步</category>
         <category>小程序</category>
-        <category>快速搭建</category>
         <category>服务端</category>
+        <category>快速搭建</category>
         <category>计算机网络</category>
         <category>后台管理系统</category>
         <item>
@@ -36,7 +36,8 @@
             <category>算法</category>
             <pubDate>Tue, 07 Nov 2023 21:45:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h1&gt;
-&lt;p&gt;术之尽头，炁体源流&lt;br /&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/download.jpg&#34; alt=&#34;download.jpg&#34; /&gt;&lt;br /&gt;
+ 术之尽头，炁体源流&lt;br /&gt;
 编程尽头，数据结构&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
