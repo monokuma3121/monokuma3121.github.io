@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Eucliの小窝 • Posts by &#34;异步&#34; tag</title>
+        <link>https://eucli.top</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sun, 05 Nov 2023 21:45:48 +0800</pubDate>
+        <lastBuildDate>Sun, 05 Nov 2023 21:45:48 +0800</lastBuildDate>
+        <category>CSS</category>
+        <category>JS</category>
+        <category>Nginx</category>
+        <category>React</category>
+        <category>nodejs</category>
+        <category>TS</category>
+        <category>算法</category>
+        <category>axios</category>
+        <category>vuerouter</category>
+        <category>express</category>
+        <category>Foo</category>
+        <category>Bar</category>
+        <category>数据库</category>
+        <category>实战</category>
+        <category>自动化</category>
+        <category>异步</category>
+        <category>小程序</category>
+        <category>快速搭建</category>
+        <category>服务端</category>
+        <category>计算机网络</category>
+        <category>后台管理系统</category>
+        <item>
+            <guid isPermalink="true">https://eucli.top/2023/11/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/</guid>
+            <title>异步编程</title>
+            <link>https://eucli.top/2023/11/05/%E5%BC%82%E6%AD%A5async%E3%80%81await/</link>
+            <category>异步</category>
+            <pubDate>Sun, 05 Nov 2023 21:45:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;js异步编程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#js异步编程&#34;&gt;#&lt;/a&gt; JS 异步编程&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0FkdmFuY2VkLUZyb250ZW5kL0RhaWx5LUludGVydmlldy1RdWVzdGlvbi9pc3N1ZXMvNw==&#34;&gt;https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/7&lt;/span&gt;&lt;br /&gt;
+ 讲的非常好&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ldWNsaS0xMzE0MzU5MTYwLmNvcy5hcC1iZWlqaW5nLm15cWNsb3VkLmNvbS90ZXN0L2ltYWdlLTIwMjMxMDI5MDk0MTMzNDY5LnBuZw==&#34;&gt;https://eucli-1314359160.cos.ap-beijing.myqcloud.com/test/image-20231029094133469.png&lt;/span&gt;&amp;quot; alt=&amp;quot;image-20231029094133469&amp;quot; style=&amp;quot;zoom:80%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;h2 id=&#34;eventloop&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#eventloop&#34;&gt;#&lt;/a&gt; EventLoop&lt;/h2&gt;
+&lt;p&gt;JavaScript 是单线程的，包含了同步任务与异步任务，同步任务直接在&lt;strong&gt;调用栈&lt;/strong&gt; (主线程) 中执行，异步任务会放入&lt;strong&gt;任务队列&lt;/strong&gt; (TaskQueue) 中，等待同步任务全部执行完毕再取出来，所以如果异步之中仍有异步任务，在调用栈中执行时会继续放入任务队列中，这就是 JS 的事件循环机制 (EventLoop)。&lt;/p&gt;
+&lt;h2 id=&#34;宏任务与微任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宏任务与微任务&#34;&gt;#&lt;/a&gt; 宏任务与微任务&lt;/h2&gt;
+&lt;p&gt;异步任务队列实际上分为两种，分别是宏任务队列与微任务队列，&lt;strong&gt;在当前循环中会优先执行微任务，当微任务队列被清空后才会执行宏任务队列。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微任务实际上是宏任务的其中一个步骤。微任务是 JS 级别的，宏任务是宿主级别的，是包含关系，不是先后关系。&lt;/p&gt;
+&lt;h3 id=&#34;微任务micro-task&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#微任务micro-task&#34;&gt;#&lt;/a&gt; 微任务（micro task）：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;promise &lt;code&gt;.then&lt;/code&gt; / &lt;code&gt;.catch&lt;/code&gt; / &lt;code&gt;.finally&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;process.nextTick&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MutationObserver&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;async/await&lt;/code&gt; : 本质上还是基于 &lt;code&gt;Promise&lt;/code&gt;  的一些封装，而 &lt;code&gt;Promise&lt;/code&gt;  是属于微任务的一种。所以在使用 &lt;code&gt;await&lt;/code&gt;  关键字与 &lt;code&gt;Promise.then&lt;/code&gt;  效果类似。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;async 函数在 await 之前的代码都是同步执行的，可以理解为 await 之前的代码属于 &lt;code&gt;new Promise&lt;/code&gt;  时传入的代码，await 之后的所有代码都是在 &lt;code&gt;Promise.then&lt;/code&gt;  中的回调&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;宏任务macro-task&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宏任务macro-task&#34;&gt;#&lt;/a&gt; 宏任务（macro task）:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;script（整体代码）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;定时器系列： &lt;code&gt;setTimeout&lt;/code&gt; 、 &lt;code&gt;setInterval&lt;/code&gt; 、 &lt;code&gt;setImmediate&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;I/O&lt;/code&gt; ：这种比较耗性能的操作浏览器会交给单独的线程去办，得到结果后再通知回来&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;requestAnimationFrame&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;tips:UI 渲染不是宏任务，而是和微任务平行的一个操作步骤&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;执行顺序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#执行顺序&#34;&gt;#&lt;/a&gt; 执行顺序：&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt; &lt;code&gt;同步任务 &amp;gt; 微任务 &amp;gt; requestAnimationFrame &amp;gt; DOM渲染 &amp;gt; 宏任务&lt;/code&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;构造函数是同步任务&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;先执行上下文栈的 &lt;code&gt;同步任务&lt;/code&gt; ；&lt;/li&gt;
+&lt;li&gt;看一下微任务队列有没有需要执行的微任务，按照队列 &lt;code&gt;先进先出&lt;/code&gt; 的原则，** &lt;code&gt;一次执行完所有&lt;/code&gt;  ** 微任务队列任务；&lt;/li&gt;
+&lt;li&gt;执行宏任务队列，&lt;strong&gt; &lt;code&gt;一次执行一个&lt;/code&gt; &lt;/strong&gt;，每执行完一个都会&lt;strong&gt;检测微任务是否为空&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;不为空则先执行微任务&lt;/li&gt;
+&lt;li&gt;为空再执行下一个宏任务；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/eucli312/img/raw/master/1699173401134-2023-11-5.png&#34; alt=&#34;1699173401134-2023-11-5.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/eucli312/img/raw/master/1699174167689-2023-11-5.png&#34; alt=&#34;1699174167689-2023-11-5.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mutationobserver是一个内建对象它观察-dom-元素并在检测到更改时触发回调&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mutationobserver是一个内建对象它观察-dom-元素并在检测到更改时触发回调&#34;&gt;#&lt;/a&gt; MutationObserver：是一个内建对象，它观察 DOM 元素，并在检测到更改时触发回调&lt;/h3&gt;
+&lt;h3 id=&#34;requestanimationframe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#requestanimationframe&#34;&gt;#&lt;/a&gt; RequestAnimationFrame&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;仅对浏览器生效，回调属于高优先级任务&lt;/li&gt;
+&lt;li&gt;会将每一帧中所有 DOM 操作集中一次渲染（所以性能较好）&lt;/li&gt;
+&lt;li&gt;回流重绘的时间会跟随刷新频率动态改变，不能主动控制（由于是帧操作，必须递归调用）&lt;/li&gt;
+&lt;li&gt;因为是异步任务，在调用后实际还可以取消&lt;/li&gt;
+&lt;li&gt;浏览器页面不是激活状态下（或离开标签页），会自动暂停执行&lt;/li&gt;
+&lt;li&gt;根据以上特性该方法常用于处理帧动画的操作，性能优于 setInterval&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;requestidlecallback&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#requestidlecallback&#34;&gt;#&lt;/a&gt; RequestIdleCallback&lt;/h3&gt;
+&lt;p&gt;该回调函数是低优先级的任务，仅在浏览器空闲时期被调用（目前仍处于实验功能阶段，在微前端中常有应用）&lt;/p&gt;
+&lt;h3 id=&#34;callback&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#callback&#34;&gt;#&lt;/a&gt; Callback&lt;/h3&gt;
+&lt;p&gt;容易造成回调地狱，不能  &lt;code&gt;try...catch&lt;/code&gt;  捕获，不能  &lt;code&gt;return&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;promise&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#promise&#34;&gt;#&lt;/a&gt; Promise&lt;/h3&gt;
+&lt;p&gt;也会造成回调地狱，但优化了 callback 方式的回调地狱问题，而  &lt;code&gt;async&lt;/code&gt; 、 &lt;code&gt;await&lt;/code&gt; （ES7）才真正解决了异步回调的问题。&lt;/p&gt;
+&lt;h4 id=&#34;面试高频&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#面试高频&#34;&gt;#&lt;/a&gt; &lt;strong&gt;面试高频：&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Promise.all&lt;/code&gt; ：将一个包含 Promise 实例的数组传入，数组内所有 Promise 实例执行完毕时，该方法会返回结果数组。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Promise.race&lt;/code&gt; ：返回的是最快成功回调的一个结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实现  &lt;code&gt;Promise.all&lt;/code&gt;  的思路：返回一个 promise 对象，方法中设有变量 count、results，循环执行每个 promise，then 回调中 count++，当 count === promises.length 时 resolve (results)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;b 站讲解：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMVdQNHkxODdUdS8/c3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2smYW1wO3ZkX3NvdXJjZT1mZjI0Nzc3MmE2MmVlOWMzYjJlZDI3ZmE1ZTRhOTFlMg==&#34;&gt;https://www.bilibili.com/video/BV1WP4y187Tu/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ff247772a62ee9c3b2ed27fa5e4a91e2&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;异步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#异步&#34;&gt;#&lt;/a&gt; 异步&lt;/h1&gt;
+&lt;p&gt;js 中异步有两种方式实现：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;回调函数，如 setTimeOut。但是会回调地狱&lt;/li&gt;
+&lt;li&gt;Promise。“承诺”：承诺会在未来的某个时刻返回数据。链式调用，避免代码的层层嵌套&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;asyncawait-是什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#asyncawait-是什么&#34;&gt;#&lt;/a&gt; async/await 是什么&lt;/h1&gt;
+&lt;p&gt;async/await 是 ES2017 (ES8) 提出的基于 Promise 的解决异步的最终方案，是一个语法糖。&lt;br /&gt;
+async 是 “异步” 的简写，而 await 可以认为是 async wait 的简写。所以应该很好理解 async 用于申明一个 function 是异步的，而 await 用于等待一个异步方法执行完成。&lt;/p&gt;
+&lt;p&gt;一个问题：await 只能出现在 async 函数中，那这个 async 函数应该怎么调用？如果需要通过 await 来调用一个 async 函数，那这个调用的外面必须得再包一个 async 函数，然后…… 进入死循环，永无出头之日……&lt;br /&gt;
+async 函数返回的是一个 Promise 对象，所以在最外层不能用 await 获取其返回值的情况下，我们当然应该用原来的方式：then () 链来处理这个 Promise 对象&lt;/p&gt;
+&lt;h2 id=&#34;async&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#async&#34;&gt;#&lt;/a&gt; async&lt;/h2&gt;
+&lt;p&gt;async 是一个加在函数前的修饰符，被 async 定义的函数会默认返回一个 Promise 对象 resolve 的值。因此对 async 函数可以直接 then，返回值就是 then 方法传入的函数。&lt;/p&gt;
+&lt;h2 id=&#34;await&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#await&#34;&gt;#&lt;/a&gt; await&lt;/h2&gt;
+&lt;p&gt;await 也是一个修饰符，只能放在 async 定义的函数内。可以理解为&lt;strong&gt;等待&lt;/strong&gt;。可以不再使用 then 直接使用 await&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;await 到底在等啥？&lt;br /&gt;
+一般来说，都认为 await 是在等待一个 async 函数完成。不过按语法说明，await 等待的是一个表达式，这个表达式的计算结果是 Promise 对象或者其它值（换句话说，就是没有特殊限定）。&lt;br /&gt;
+因为 async 函数返回一个 Promise 对象，所以 await 可以用于等待一个 async 函数的返回值 —— 这也可以说是 await 在等 async 函数，但要清楚，它等的实际是一个返回值。注意到 await 不仅仅用于等 Promise 对象，它可以等任意表达式的结果，所以，await 后面实际是可以接普通函数调用或者直接量的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;await 等到了要等的，然后呢？&lt;br /&gt;
+await 等到了它要等的东西，一个 Promise 对象，或者其它值，然后呢？我不得不先说，await 是个运算符，用于组成表达式，await 表达式的运算结果取决于它等的东西。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;如果它等到的不是一个 Promise 对象，那 await 表达式的运算结果就是它等到的东西。&lt;/li&gt;
+&lt;li&gt;如果它等到的是一个 Promise 对象，await 就忙起来了，它会阻塞后面的代码，等着 Promise 对象 resolve，然后得到 resolve 的值，作为 await 表达式的运算结果。
+&lt;blockquote&gt;
+&lt;p&gt;看到上面的阻塞一词，心慌了吧…… 放心，这就是 await 必须用在 async 函数中的原因。async 函数调用不会造成阻塞，它内部所有的阻塞都被封装在一个 Promise 对象中异步执行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;——————————————————&lt;br /&gt;
+ 使用 async 和 await 可以让我们写出更清晰、更容易理解的异步代码，有了它们之后，我们几乎不再需要使用底层的 Promise 对象，包括调用它的 then (),catch () 函数等等&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

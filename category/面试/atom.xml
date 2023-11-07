@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://eucli.top</id>
+    <title>Eucliの小窝 • Posts by &#34;面试&#34; category</title>
+    <link href="https://eucli.top" />
+    <updated>2023-09-29T13:45:48.000Z</updated>
+    <category term="CSS" />
+    <category term="JS" />
+    <category term="Nginx" />
+    <category term="React" />
+    <category term="nodejs" />
+    <category term="TS" />
+    <category term="算法" />
+    <category term="axios" />
+    <category term="vuerouter" />
+    <category term="express" />
+    <category term="Foo" />
+    <category term="Bar" />
+    <category term="数据库" />
+    <category term="实战" />
+    <category term="自动化" />
+    <category term="异步" />
+    <category term="小程序" />
+    <category term="快速搭建" />
+    <category term="服务端" />
+    <category term="计算机网络" />
+    <category term="后台管理系统" />
+    <entry>
+        <id>https://eucli.top/2023/09/29/oj%E5%88%A4%E9%A2%98%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8E%86/</id>
+        <title>oj判题系统简历</title>
+        <link rel="alternate" href="https://eucli.top/2023/09/29/oj%E5%88%A4%E9%A2%98%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8E%86/"/>
+        <content type="html">&lt;h1 id=&#34;在线判题项目简历写法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在线判题项目简历写法&#34;&gt;#&lt;/a&gt; 在线判题项目简历写法&lt;/h1&gt;
+&lt;p&gt;建议&lt;/p&gt;
+&lt;p&gt;注意，以下简历写法仅供参考，根据你自己的简历丰富度、以及对于项目的理解情况有选择地去写。如果你自己还没有实现项目或者不理解，建议赶紧跟着鱼皮的教程把它弄懂，再写到简历上！&lt;/p&gt;
+&lt;p&gt;此外，本项目系统设计的思路，设计模式、异步化、应用解耦的编程思想、Docker 和单体项目改造微服务的实践，其实是可以运用到你做的其他项目中的，可以把该项目的部分亮点和你之前的项目进行整合。&lt;/p&gt;
+&lt;p&gt;专业技能&lt;/p&gt;
+&lt;p&gt;●熟悉前端 Vue 3 开发，能够自定义通用的前端开发模板，包括 Vuex 状态管理、权限管理、布局切换、菜单生成等功能。&lt;/p&gt;
+&lt;p&gt;●熟悉前端代码规范，并能够使用 ESLint + Prettier + TypeScript 等技术保证前端项目质量。&lt;/p&gt;
+&lt;p&gt;●熟悉 Arco Design、ByteMD、 Monaco Editor 等组件的使用&lt;/p&gt;
+&lt;p&gt;●能够使用 Vue-CLI 脚手架、openapi-typescript-codegen 代码生成器、VS Code、WebStorm IDE 等开发工具快速开发前端项目&lt;/p&gt;
+&lt;p&gt;项目经历&lt;/p&gt;
+&lt;p&gt;项目名称：XX OJ 在线判题系统&lt;/p&gt;
+&lt;p&gt;建议自己想个有区分度的名字，其他名称参考：&lt;/p&gt;
+&lt;p&gt;●XX 在线评测系统&lt;/p&gt;
+&lt;p&gt;●XX 题目测评系统&lt;/p&gt;
+&lt;p&gt;●XX 代码练习平台&lt;/p&gt;
+&lt;p&gt;●XX 编程学习系统&lt;/p&gt;
+&lt;p&gt;●XX OJ&lt;/p&gt;
+&lt;p&gt;在线访问：xxx（建议自己部署一下，提供可访问的、简短的线上地址）&lt;/p&gt;
+&lt;p&gt;GitHub：xxx（建议把项目放到代码仓库中，并且在主页文档里补充项目架构图等信息）&lt;/p&gt;
+&lt;p&gt;项目介绍&lt;/p&gt;
+&lt;p&gt;以下文字，括号里的内容表示可选项、或者鱼皮的备注，比如不熟悉前端的同学就不要写 Vue 等和前端相关的内容了&lt;/p&gt;
+&lt;p&gt;精简版&lt;/p&gt;
+&lt;p&gt;适合简历内容丰富的同学&lt;/p&gt;
+&lt;p&gt;基于 Spring Cloud 微服务 + MQ + Docker（+ Vue 3 + Arco Design）的编程题目评测系统。系统能够根据管理员预设的题目用例对用户提交的代码进行执行和评测；系统中 自主实现的代码沙箱 可作为独立服务供其他开发者调用。&lt;/p&gt;
+&lt;p&gt;详细版&lt;/p&gt;
+&lt;p&gt;适合简历内容不多的同学&lt;/p&gt;
+&lt;p&gt;基于 Spring Boot + Spring Cloud 微服务 + Docker（+ Vue 3 + Arco Design）的编程题目在线评测系统。&lt;/p&gt;
+&lt;p&gt;在系统前台，管理员可以创建、管理题目；用户可以自由搜索题目、阅读题目、编写并提交代码。&lt;/p&gt;
+&lt;p&gt;在系统后端，能够根据管理员设定的题目测试用例在 自主实现的代码沙箱 中对代码进行编译、运行、判断输出是否正确。&lt;/p&gt;
+&lt;p&gt;其中，代码沙箱可以作为独立服务，提供给其他开发者使用。&lt;/p&gt;
+&lt;p&gt;主要工作&lt;/p&gt;
+&lt;p&gt;根据自己的方向选 6 个左右去写并适当调整文案，灵活一点。 强烈建议结合下面的扩展思路多完善下项目，增加一些区分度！&lt;/p&gt;
+&lt;p&gt;前端&lt;/p&gt;
+&lt;p&gt;1 基于 Vue3 + Arco Design 组件库，自主实现了在线做题、题目检索和管理、提交列表、用户登录等页面。&lt;/p&gt;
+&lt;p&gt;2 使用 Vue-CLI 脚手架初始化项目，并自行开发了全局页面布局和通用前端项目模板，便于后续复用。&lt;/p&gt;
+&lt;p&gt;3 使用 TypeScript + ESLint + Prettier + Husky 保证项目编码和提交规范，提高项目的质量。（虽然是由脚手架自动帮你整合了，但你要知道这些技术各自的作用）&lt;/p&gt;
+&lt;p&gt;4 全局导航生成：基于 Vue Router 的路由配置文件自动生成导航菜单，并通过给路由的 meta 属性增加 hidden 字段实现集中控制页面的显隐。&lt;/p&gt;
+&lt;p&gt;5 全局权限管理：通过给 Vue Router 路由的 meta 属性增加 access 字段来定义页面权限，然后通过 beforeEach 全局路由守卫集中校验用户进入页面的权限，并进一步将权限管理相关代码统一封装为 access.ts 模块，简化用户使用。&lt;/p&gt;
+&lt;p&gt;6 全局状态管理：基于 Vuex 定义 User Module 实现了对登录用户的状态存储，并通过组合式 API（useStore）在页面中访问用户信息。&lt;/p&gt;
+&lt;p&gt;7 前后端联调：使用 openapi-typescript-codegen 工具根据后端 Swagger 接口文档自动生成请求后端的代码，大幅提高开发效率。&lt;/p&gt;
+&lt;p&gt;8 为提高前端开发效率，使用 IDEA 的 Live Templates 功能自定义了一套基础前端代码模板，能够通过快捷键高效生成代码。&lt;/p&gt;
+&lt;p&gt;9 选用 ByteMD 开源 Markdown 文本编辑器组件，引入 gfm 插件（支持表格语法）并进一步自行封装了可复用的 Editor 和 Viewer，实现了题目内容及答案的编辑功能。&lt;/p&gt;
+&lt;p&gt;10 基于 Webpack 整合了 Monaco Editor 开源代码编辑器组件，并进一步基于 ref 自行封装了可复用的 Editor 和 Viewer，实现了用户编写代码功能，支持多种语言的高亮。&lt;/p&gt;
+&lt;p&gt;11 使用 Arco Design 的 Table 组件实现了题目检索页面，并通过自定义插槽将后端返回的 JSON 数据解析为美观的格式。&lt;/p&gt;
+&lt;p&gt;后端&lt;/p&gt;
+&lt;p&gt;1 系统架构：根据功能职责，将系统划分为负责核心业务的后端模块、负责校验结果的判题模块、负责编译执行代码的可复用代码沙箱。各模块相互独立，并通过 API 接口和分包的方式实现协作。&lt;/p&gt;
+&lt;p&gt;2 库表设计：根据业务流程自主设计用户表、题目表、题目提交表，并通过给题目表添加 userId 索引提升检索性能。（感兴趣的同学可以自己测试一下性能的提高比例）&lt;/p&gt;
+&lt;p&gt;3 自主设计判题机模块的架构，定义了代码沙箱的抽象调用接口和多种实现类（比如远程 / 第三方代码沙箱），并通过 静态工厂模式 + Spring 配置化 的方式实现了对多种代码沙箱的灵活调用。&lt;/p&gt;
+&lt;p&gt;4 使用 代理模式 对代码沙箱接口进行能力增强，统一实现了对代码沙箱调用前后的日志记录，减少重复代码。&lt;/p&gt;
+&lt;p&gt;5 由于判题逻辑复杂、且不同题目的判题算法可能不同（比如 Java 题目额外增加空间限制），选用 策略模式 代替 if else 独立封装了不同语言的判题算法，提高系统的可维护性。&lt;/p&gt;
+&lt;p&gt;6 使用 Java Runtime 对象的 exec 方法实现了对 Java 程序的编译和执行，并通过 Process 类 的输入流获取执行结果，实现了 Java 原生代码沙箱。&lt;/p&gt;
+&lt;p&gt;7 通过编写 Java 脚本自测代码沙箱，模拟了多种程序异常情况并针对性解决，如使用守护线程 + Thread.sleep 等待机制实现了对进程的超时中断、使用 JVM -Xmx 参数限制用户程序占用的最大堆内存、使用 黑白名单 + 字典树 的方式实现了对敏感操作的限制。（选 1 - 2 种即可）&lt;/p&gt;
+&lt;p&gt;8 使用 Java 安全管理器和自定义的 Security Manager 对用户提交的代码进行权限控制，比如关闭写文件、执行文件权限，进一步提升了代码沙箱的安全性。&lt;/p&gt;
+&lt;p&gt;9 为保证沙箱宿主机的稳定性，选用 Docker 隔离用户代码，使用 Docker Java 库创建容器隔离执行代码，并通过 tty 和 Docker 进行传参交互，从而实现了更安全的代码沙箱。&lt;/p&gt;
+&lt;p&gt;10 使用 VMware Workstation 虚拟机软件搭建 Ubuntu Linux + Docker 环境，并通过 JetBrains Client 连接虚拟机进行实时 远程开发 ，提高了开发效率。&lt;/p&gt;
+&lt;p&gt;11 为提高 Docker 代码沙箱的安全性，通过 HostConfig 限制了容器的内存限制和网络隔离，并通过设置容器执行超时时间解决资源未及时释放的问题。&lt;/p&gt;
+&lt;p&gt;12 由于 Java 原生和 Docker 代码沙箱的实现流程完全一致（编译、执行、获取输出、清理），选用模板方法模式定义了一套标准的流程并允许子类自行扩展部分流程，提高代码一致性并大幅简化冗余代码。&lt;/p&gt;
+&lt;p&gt;13 为防止用户恶意请求代码沙箱服务，（采用 API 签名认证的方式，）给调用方分配签名密钥，并通过校验请求头中的密钥保证了 API 调用安全。&lt;/p&gt;
+&lt;p&gt;14 为保证项目各模块的稳定性，选用 Spring Cloud Alibaba 重构单体项目，（使用 Redis 分布式 Session 存储登录用户信息，并将项目）划分为用户服务、题目服务、判题服务、公共模块。&lt;/p&gt;
+&lt;p&gt;15 使用阿里云原生脚手架初始化微服务项目，并结合 Maven 子父模块的配置，保证了微服务各模块依赖的版本一致性，避免依赖冲突。&lt;/p&gt;
+&lt;p&gt;16 通过工具（JetBrains 的 Find Usage 功能 + 表格整理）梳理微服务间的调用关系，并通过 Nacos + OpenFeign 实现了各模块之间的相互调用，如判题服务调用题目服务来获取题目信息。&lt;/p&gt;
+&lt;p&gt;17 使用 Spring Cloud Gateway 对各服务接口进行聚合和路由，保护服务的同时简化了客户端的调用（前端不用根据业务请求不同端口的服务），并通过自定义 CorsWebFilter Bean 全局解决了跨域问题。&lt;/p&gt;
+&lt;p&gt;18 使用 Knife4j Gateway 在网关层实现了对各服务 Swagger 接口文档的统一聚合，无需通过切换地址查看各服务的文档。&lt;/p&gt;
+&lt;p&gt;19 为保护内部服务接口，给接口路径统一设置 inner 前缀，并通过在网关自定义 GlobalFilter（全局请求拦截器）实现对内部请求的检测和拦截，集中解决了权限校验问题。&lt;/p&gt;
+&lt;p&gt;20 为防止判题操作执行时间较长，系统选用异步的方式，在题目服务中将用户提交 id 发送给 RabbitMQ 消息队列，并通过 Direct 交换机转发给判题队列，由判题服务进行消费，异步更新提交状态。相比于同步，响应时长由 xx 秒减少至 xx 秒，且系统 qps 提升了 xx%（需要自己使用 JMeter 等工具进行测试）。&lt;/p&gt;
+&lt;p&gt;21 基于自己二次开发的 Spring Boot 初始化模板 + MyBatis X 插件，快速生成图表、用户数据的增删改查。&lt;/p&gt;
+&lt;p&gt;通用&lt;/p&gt;
+&lt;p&gt;1 在系统设计阶段，通过绘制时序图、功能模块图、流程图、分层架构图来帮助自己梳理业务流程。&lt;/p&gt;
+&lt;p&gt;扩展思路&lt;/p&gt;
+&lt;p&gt;需要大家自行实现&lt;/p&gt;
+&lt;p&gt;前端&lt;/p&gt;
+&lt;p&gt;1 增强前端通用模板的能力，支持在路由文件中配置多套布局&lt;/p&gt;
+&lt;p&gt;2 增强前端通用模板的能力，支持自动生成包含嵌套路由的多级导航栏&lt;/p&gt;
+&lt;p&gt;3 优化题目管理页面，将 json 配置分为多列更美观地展示&lt;/p&gt;
+&lt;p&gt;4 题目提交列表页面增加一个刷新、定时自动刷新的按钮，保证获取到题目提交的最新状态（前端轮询）&lt;/p&gt;
+&lt;p&gt;5 增加对用户个人提交题目的管理页面&lt;/p&gt;
+&lt;p&gt;6 增加对题目提交情况的统计分析页面，给管理员使用&lt;/p&gt;
+&lt;p&gt;7 使用 Monaco Editor 的 diff editor 功能来对比用户代码和标准答案代码的区别&lt;/p&gt;
+&lt;p&gt;后端&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;把微服务项目部署上线，参考教程：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iY2RoLnl1cXVlLmNvbS9zdGFmZi13cHhmaWYvcmVzb3VyY2Uvd3owbHpxaGZ2NzRuZ2NmZg==&#34;&gt;如何快速部署微服务项目？保姆级教程&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2 增加题目的通过数、提交数统计，计算通过率&lt;/p&gt;
+&lt;p&gt;3 限制代码沙箱中最多允许同时启动的 Docker 容器数，防止系统过载（甚至还可以用池化技术复用 Docker 容器）&lt;/p&gt;
+&lt;p&gt;4 更多类型的代码沙箱实现，比如使用 AI 进行判题？使用第三方服务（judge0 api）进行判题？&lt;/p&gt;
+&lt;p&gt;5 反向压力：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80MDQ5OTM3NTMlRUYlQkMlOEMlRTklODAlOUElRTglQkYlODclRTglQjAlODMlRTclOTQlQTglRTclOUElODQlRTYlOUMlOEQlRTUlOEElQTElRTclOEElQjYlRTYlODAlODElRTYlOUQlQTUlRTklODAlODklRTYlOEIlQTklRTUlQkQlOTMlRTUlODklOEQlRTclQjMlQkIlRTclQkIlOUYlRTclOUElODQlRTclQUQlOTYlRTclOTUlQTUlRUYlQkMlODglRTYlQUYlOTQlRTUlQTYlODIlRTYlQTAlQjklRTYlOEQlQUUlRTUlQkQlOTMlRTUlODklOEQlRTYlOEYlOTAlRTQlQkElQTQlRTQlQkIlQkIlRTUlOEElQTElRTklOTglOUYlRTUlODglOTclRTYlOTUlQjAlRTYlOUQlQTUlRTYlOEUlQTclRTUlODglQjYlRTUlQkQlOTMlRTUlODklOEQlRTUlODUlODElRTglQUUlQjglRTclOTQlQTglRTYlODglQjclRTclOUElODQlRTYlOUMlODAlRTUlQTQlQTclRTYlOEYlOTAlRTQlQkElQTQlRTYlOTUlQjAlRUYlQkMlODklRUYlQkMlOEMlRTQlQkIlOEUlRTglODAlOEMlRTYlOUMlODAlRTUlQTQlQTclRTUlOEMlOTYlRTUlODglQTklRTclOTQlQTglRTclQjMlQkIlRTclQkIlOUYlRTglQjUlODQlRTYlQkElOTAlRTMlODAlODI=&#34;&gt;https://zhuanlan.zhihu.com/p/404993753，通过调用的服务状态来选择当前系统的策略（比如根据当前提交任务队列数来控制当前允许用户的最大提交数），从而最大化利用系统资源。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;6 限制单个用户的同时最大提交数，合理分配资源。&lt;/p&gt;
+&lt;p&gt;7 限制单个用户的提交频率，可以通过 Redisson 或者 Sentinel 网关层限流实现。&lt;/p&gt;
+&lt;p&gt;8 实现 ACM 模式（通过代码进行输入输出）的代码沙箱&lt;/p&gt;
+&lt;p&gt;9 用同样的思路或者 Linux 的 cgroup 语法实现一种其他编程语言的代码沙箱&lt;/p&gt;
+&lt;p&gt;10 实现 Special Judge 特判程序的逻辑&lt;/p&gt;
+&lt;p&gt;11 给判题过程中的每个测试用例增加一个独立的内存、时间占用的统计&lt;/p&gt;
+&lt;p&gt;12 可以使用 JWT Token 实现用户登录，在网关层面通过 token 获取登录信息，实现鉴权&lt;/p&gt;
+&lt;p&gt;13 处理消息队列的消息重试，避免消息积压（可以选用死信队列）&lt;/p&gt;
+&lt;p&gt;个人评价&lt;/p&gt;
+&lt;p&gt;1 有较强的文档阅读能力，曾阅读 Spring Cloud Alibaba 等官方文档自主学习，并能够运用到项目中。&lt;/p&gt;
+&lt;p&gt;2 有较强的问题解决能力，能够利用 GitHub Issues 区、AI 工具、搜索引擎、Stack Overflow 等自主解决问题&lt;/p&gt;
+&lt;p&gt;前端&lt;/p&gt;
+&lt;p&gt;部分面试题可以参考伙伴匹配系统或聚合搜索平台的前端面试题，都是 Vue 项目&lt;/p&gt;
+&lt;p&gt;项目中使用了 Vue-CLI 脚手架来初始化项目，请解释一下脚手架的作用？&lt;/p&gt;
+&lt;p&gt;背诵类题目，可以加主观回答&lt;/p&gt;
+&lt;p&gt;Vue CLI 是一个用于快速搭建 Vue.js 项目的脚手架工具，可以通过交互式命令行的方式快速创建项目初始代码，并且有选择地整合前端常用工具和类库，能够快速启动和打包项目。&lt;/p&gt;
+&lt;p&gt;本项目就是使用了 Vue CLI 工具进行初始化的，脚手架自动整合了版本相互兼容的 ESLint、TypeScript、Prettier、Webpack 等工具和类库，并且提供了本地调试（dev）和打包（build）命令，我可以更加专注于业务页面的开发。&lt;/p&gt;
+&lt;p&gt;可以通过阅读官方文档进一步了解 Vue CLI：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jbGkudnVlanMub3JnL3poL2d1aWRlLw==&#34;&gt;https://cli.vuejs.org/zh/guide/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在项目中使用了 TypeScript、ESLint、Prettier 和 Husky 来保证项目的编码规范，解释一下它们各自的作用？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;我通过一系列的工具和技术保证项目编码规范，包括 TypeScript、ESLint、Prettier 和 Husky。&lt;/p&gt;
+&lt;p&gt;各技术的作用如下：&lt;/p&gt;
+&lt;p&gt;●TypeScript：支持静态类型检查功能，用于增强代码的类型安全性，减少类型相关的错误。&lt;/p&gt;
+&lt;p&gt;●ESLint：代码检查工具，用于检测 JavaScript 的代码质量、风格等问题，强制开发者遵守编码规范。&lt;/p&gt;
+&lt;p&gt;●Prettier：代码格式化工具，能够根据配置自动格式化代码，确保代码的可读性和一致性。&lt;/p&gt;
+&lt;p&gt;●Husky：用于管理 Git 钩子的工具，在 Git 提交操作前自动运行代码检查脚本，确保提交的代码质量和规范。&lt;/p&gt;
+&lt;p&gt;如果是团队协作开发的项目，还可以使用代码审查机制，让其他人帮忙审查代码，减少潜在的 Bug 和编码不规范问题。&lt;/p&gt;
+&lt;p&gt;请介绍一下你自定义的前端项目模板的主要功能？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;首先我使用 Vue-CLI 脚手架创建初始化项目，自动整合了 TypeScript、ESLint、Prettier、Husky 代码质量保证相关工具类库，并且支持使用 Webpack 完成打包。&lt;/p&gt;
+&lt;p&gt;在此基础上，我自主开发了以下通用功能：&lt;/p&gt;
+&lt;p&gt;1 全局页面布局：复用导航栏、底部 Footer 栏，并且支持根据路由切换多套布局&lt;/p&gt;
+&lt;p&gt;2 全局权限管理：通过路由配置指定各页面的权限，当页面跳转时自动拦截并鉴权&lt;/p&gt;
+&lt;p&gt;3 全局状态管理：实现用户自动登录逻辑，并在 Vuex 中存储用户登录态&lt;/p&gt;
+&lt;p&gt;4 导航菜单生成：根据路由配置自动生成导航菜单，支持控制菜单的显隐&lt;/p&gt;
+&lt;p&gt;5 用户登录注册：简洁的用户登录和注册页面&lt;/p&gt;
+&lt;p&gt;6 常用组件引入：引入 ByteMD 文本编辑器、Monaco Editor 代码编辑器、Moment 日期处理库等&lt;/p&gt;
+&lt;p&gt;后续开发新项目时，我可以直接基于此模板进行开发，无需重复编写业务无关代码，大幅提高开发效率。&lt;/p&gt;
+&lt;p&gt;项目中使用了 Vue Router 来进行全局导航生成，请详细解释一下如何根据路由配置文件自动生成导航菜单？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;关键步骤如下：&lt;/p&gt;
+&lt;p&gt;1 新建全局导航组件&lt;/p&gt;
+&lt;p&gt;2 组件内加载 routes 路由配置文件，获取所有的路由信息，通过 v-for 遍历路由生成菜单&lt;/p&gt;
+&lt;p&gt;3 给菜单绑定跳转事件，点击后触发 router.push 进行页面跳转&lt;/p&gt;
+&lt;p&gt;4 根据当前 url 修改菜单的 active 状态，高亮当前页面对应的菜单项&lt;/p&gt;
+&lt;p&gt;5 通过在 routes 路由配置的 meta 属性中添加 hideInMenu 字段来控制菜单的显隐（权限控制同理）&lt;/p&gt;
+&lt;p&gt;项目中使用了全局权限管理，请详细描述如何通过 Vue Router 的路由守卫来实现全局权限控制？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;关键步骤如下：&lt;/p&gt;
+&lt;p&gt;1 在 routes 路由配置文件中，通过 meta 属性中添加 access 字段来定义某个路由的访问权限&lt;/p&gt;
+&lt;p&gt;2 在全局权限管理文件 access.ts 中，使用 Vue Router 的全局前置路由守卫对页面的跳转进行监听和拦截，并且在项目入口文件 main.ts 中引入 access.ts 开启全局权限管理。&lt;/p&gt;
+&lt;p&gt;3 每次访问页面时，根据页面对应路由的 access 字段、结合当前用户的登录信息，判断用户是否有对应的访问权限。&lt;/p&gt;
+&lt;p&gt;4 如果满足权限，跳转到目标页面；如果不满足权限，重定向页面到 403 或者登录页。&lt;/p&gt;
+&lt;p&gt;项目中使用 Vuex 来进行全局状态管理，请解释为什么在项目中需要全局状态管理以及如何使用 Vuex？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;项目中使用 Vuex 来存储各页面或组件可能都需要获取的全局信息，比如当前登录用户信息，便于各个页面和组件之间共享这些信息，不必通过复杂的父子组件来传递数据，从而简化了项目的代码。&lt;/p&gt;
+&lt;p&gt;我参考 Vuex 的官方文档将其运用到项目中，大概步骤如下：&lt;/p&gt;
+&lt;p&gt;1 使用 store 目录独立存储所有的状态文件&lt;/p&gt;
+&lt;p&gt;2 使用 Vuex 的 modules 特性，定义用户模块，用于存储用户相关的状态&lt;/p&gt;
+&lt;p&gt;3 在用户模块中，编写存放登录用户信息的 state、更改用户信息的 mutations 和远程获取用户信息的 actions&lt;/p&gt;
+&lt;p&gt;4 在项目的其他组件或页面中，可以通过 store.state.user 访问用户信息、通过 store.dispatch 加载登录用户信息。&lt;/p&gt;
+&lt;p&gt;项目中使用了 Arco Design 的 Table 组件，请介绍下你是如何使用 Table 组件的、使用了其哪些功能？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;我参考官方文档提供的示例代码在项目中引入 Table 组件，通过 Table 组件的 columns 数组属性定义表格的列，通过 data 属性传递表格的数据。&lt;/p&gt;
+&lt;p&gt;对于后端返回的复杂 JSON 字符串，我使用 Table 组件的自定义渲染功能，通过插槽的语法，自定义了从 JSON 字符串中取值并格式化展示的逻辑，让表格的展示效果更精美。&lt;/p&gt;
+&lt;p&gt;项目中使用了 Monaco Editor 开源代码编辑器组件，请解释一下它的特点和在项目中的应用？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;Monaco Editor 是由微软开源的代码编辑器组件，也是知名开发工具 VS Code 内置的编辑器组件，不仅轻量，而且功能十分强大。&lt;/p&gt;
+&lt;p&gt;比如支持多种编程语言、语法高亮、代码补全、各种编辑功能、自定义主题、代码 Diff 等。&lt;/p&gt;
+&lt;p&gt;在项目中，我引入 Monaco Editor 作为在线做题页面的代码编辑器，给用户良好的代码编辑体验。&lt;/p&gt;
+&lt;p&gt;项目中使用了 ByteMD 文本编辑器组件，请解释下你是如何封装了可复用的 Editor 和 Viewer 组件？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;ByteMD 是由字节跳动开源的 Markdown 文本编辑组件，为了在项目中更方便地使用它，我在其基础上封装了 Editor（文本编辑器）和 Viewer（文本浏览器）组件。&lt;/p&gt;
+&lt;p&gt;以 Editor 组件为例，我在组件内初始化了 ByteMD 的 editor 并且引入了 gfm、highlight 插件，还给组件提供了 value、handleChange、mode 属性，便于父组件获取文本编辑器当前的内容、根据需求改变文本编辑器的模式，降低使用成本。&lt;/p&gt;
+&lt;p&gt;你是如何使用 JetBrains 的 Live Templates 功能来自定义代码模板的？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;在项目开发过程中，经常有一些相似的代码需要重复编写，为了提高效率，我使用 JetBrains 开发工具自带的 Live Templates 功能，自己定义了一套代码模板，具体过程如下：&lt;/p&gt;
+&lt;p&gt;1 创建自定义模板分组&lt;/p&gt;
+&lt;p&gt;2 创建具体的代码模板，比如新的 Vue 前端页面模板，可以通过自定义表达式变量动态生成内容、或者使用 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;END&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10903em;&#34;&gt;N&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 内置变量指定生成代码后光标的位置。&lt;/p&gt;
+&lt;p&gt;3 为该模板配置缩写（通过哪些关键字快捷使用模板）和上下文（在哪些编程语言或文件触发）&lt;/p&gt;
+&lt;p&gt;示例模板代码：&lt;/p&gt;
+&lt;p&gt;什么是前端的组件？组件之间如何传递属性和事件？&lt;/p&gt;
+&lt;p&gt;背诵类题目&lt;/p&gt;
+&lt;p&gt;前端的组件是指可复用的、独立的 UI 元素，组件通常封装了特定功能或视图，可以在项目中被多次使用。组件化也是一种重要的开发模式，适当地封装和复用组件，有助于提高代码的可维护性、可扩展性和重用性。&lt;/p&gt;
+&lt;p&gt;在 Vue 框架中，组件之间可以通过以下几种方式传递属性和事件：&lt;/p&gt;
+&lt;p&gt;1Props（父传子）：通过 props 属性，父组件可以向子组件传递数据。子组件通过 props 接收父组件传递的数据。&lt;/p&gt;
+&lt;p&gt;2 自定义事件（子传父）：子组件可以通过 $emit 方法触发自定义事件，然后父组件通过在子组件上使用 @或 v-on 指令监听这些事件，以接收子组件的消息。&lt;/p&gt;
+&lt;p&gt;3 事件总线（兄弟组件）：通过创建一个事件总线实例，不同组件可以通过事件总线来进行通信。这是一种适用于兄弟组件之间的通信方式。&lt;/p&gt;
+&lt;p&gt;4Vuex（状态管理）：Vuex 是 Vue.js 的官方状态管理库，用于管理全局状态。不同组件可以通过 Vuex 来共享和管理应用程序的状态。&lt;/p&gt;
+&lt;p&gt;5$refs（父子组件）：父组件可以通过 ref 属性引用子组件，并直接访问子组件的属性和方法。这种方式主要用于父组件控制子组件的行为。&lt;/p&gt;
+&lt;p&gt;6 插槽（分发内容）：插槽允许父组件将内容分发到子组件的特定位置，以实现更灵活的组件复用和布局控制。&lt;/p&gt;
+&lt;p&gt;什么是 openapi-typescript-codegen 工具？它是如何生成接口调用代码的？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;openapi-typescript-codegen 是一个能够根据 OpenAPI 文档自动生成 JavaScript 和 TypeScript 客户端调用代码的工具。&lt;/p&gt;
+&lt;p&gt;使用这个工具，前端开发者无需人工阅读接口文档并编写对应的请求代码，大幅提高开发效率。&lt;/p&gt;
+&lt;p&gt;用法很简单，用 npm 安装完工具后，通过 openapi 命令指定接口文档地址、输出目录以及使用的请求客户端（比如 Axios）即可。&lt;/p&gt;
+&lt;p&gt;项目中使用了 Webpack 整合 Monaco Editor，请解释一下 Webpack 的作用，以及如何整合 Monaco Editor？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;Webpack 是一个 JavaScript 应用程序打包工具，它的主要作用是将多个 JavaScript 文件及其依赖打包成一个或多个静态资源文件，以减少网络请求，提高应用性能，并且支持处理各种前端资源，如样式、图片、字体等。&lt;/p&gt;
+&lt;p&gt;在本项目中，由于使用了 Vue-CLI 脚手架初始化项目，需要在 vue.config.js 文件中定义 Webpack 的资源整合配置。这里参考了 monaco-editor-webpack-plugin 的官方文档，通过引入 MonacoWebpackPlugin 来引入 Monaco Editor，示例代码如下：&lt;/p&gt;
+&lt;p&gt;请介绍一下 Vue 3 的新特性和与 Vue 2 相比有哪些变化？&lt;/p&gt;
+&lt;p&gt;背诵类题目，也可以有主观回答&lt;/p&gt;
+&lt;p&gt;详细参考官方文档：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92My1taWdyYXRpb24udnVlanMub3JnL3poLyMlRTUlODAlQkMlRTUlQkUlOTclRTYlQjMlQTglRTYlODQlOEYlRTclOUElODQlRTYlOTYlQjAlRTclODklQjklRTYlODAlQTc=&#34;&gt;Vue 3 迁移指南 | Vue 3 迁移指南&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1）更快的渲染性能：Vue 3 引入了新的响应式系统（Proxy-based），相比 Vue 2 的 Object.defineProperty，提供了更高效的数据监听和更新机制，从而提高了渲染性能。&lt;/p&gt;
+&lt;p&gt;2）Composition API：Composition API 是 Vue 3 的核心特性之一，它允许开发者更灵活地组织和重用组件逻辑。它将组件的逻辑拆分为可复用的函数式组合，并提供了 setup () 函数来配置组件。&lt;/p&gt;
+&lt;p&gt;3）Teleport：Vue 3 引入了 Teleport 组件，可以轻松将内容渲染到 DOM 中的不同位置，这在处理模态框、对话框等场景时非常有用。&lt;/p&gt;
+&lt;p&gt;4）Fragments：Vue 3 支持 Fragments，允许组件返回多个根节点，而无需包裹额外的 HTML 元素。&lt;/p&gt;
+&lt;p&gt;需要注意的是，虽然 Vue 3 引入了许多新特性，但它仍然保持了 Vue 2 的核心理念和语法，因此 Vue 2 的开发者可以相对容易地迁移到 Vue 3，并逐步采用新的特性和优化。&lt;/p&gt;
+&lt;p&gt;什么是 Vue 中的响应式变量？&lt;/p&gt;
+&lt;p&gt;背诵类题目，但可以加主观回答&lt;/p&gt;
+&lt;p&gt;响应式变量是一种特殊的 JavaScript 变量，它与 Vue 的数据绑定系统紧密关联。Vue 会自动监视响应式变量，当响应式变量的值发生变化时，相关的 Vue 组件会自动更新视图以反映这些变化。&lt;/p&gt;
+&lt;p&gt;在项目开发中，我们通常会把后端接口返回的数据存到响应式变量中，从而更方便地驱动页面视图的更新，展示返回的数据。&lt;/p&gt;
+&lt;p&gt;Vue 2 项目中，通常把响应式变量定义在 Data 属性中；Vue 3 项目中，可以使用 ref 或者 reactive 定义响应式变量。&lt;/p&gt;
+&lt;p&gt;项目是否有上线？你是如何实现前端页面部署的？&lt;/p&gt;
+&lt;p&gt;主观回答&lt;/p&gt;
+&lt;p&gt;项目有实际上线。我是通过本地打包 + Nginx 实现了前端页面部署。&lt;/p&gt;
+&lt;p&gt;具体过程如下：&lt;/p&gt;
+&lt;p&gt;1 购买云服务器&lt;/p&gt;
+&lt;p&gt;2 安装和初始化宝塔 Linux 面板，会自动安装 Nginx 服务器&lt;/p&gt;
+&lt;p&gt;3 在宝塔上创建一个网站&lt;/p&gt;
+&lt;p&gt;4 本地使用 npm run build 命令打包项目，得到 dist 网站静态文件目录&lt;/p&gt;
+&lt;p&gt;5 上传本地打包好的 dist 目录到服务器，然后配置 Nginx 指向文件目录路径，即可访问前端静态文件&lt;/p&gt;
+&lt;p&gt;还有其他的部署方式，比如使用 Vercel 等 Serverless 服务一键部署到第三方托管服务器，但由于本人有服务器、并且想实践下 Nginx 配置，所以没有选择这种方式。&lt;/p&gt;
+&lt;p&gt;通用&lt;/p&gt;
+&lt;p&gt;请介绍一下本项目的完整业务流程？&lt;/p&gt;
+&lt;p&gt;管理员创建题目、添加题目的测试用例 =&amp;gt; 用户自由搜索题目 =&amp;gt; 用户阅读题目、编写并提交代码 =&amp;gt; 系统后端调用 代码沙箱，对代码进行编译、运行 =&amp;gt; 判题服务根据管理员设定的题目测试用例判断用户提交是否正确 =&amp;gt; 用户可以查看提交记录和判题结果。&lt;/p&gt;
+&lt;p&gt;其中，代码沙箱可以作为独立服务，提供给其他开发者使用。&lt;/p&gt;
+&lt;p&gt;有调研过 OJ 系统的实现方案么？&lt;/p&gt;
+&lt;p&gt;有的，我在开发 OJ 系统前，调研了非常多的开源项目，比如 HOJ、hustoj 等，总结了 5 种常见的实现方案。&lt;/p&gt;
+&lt;p&gt;1 自部署现成的开源 OJ 系统&lt;/p&gt;
+&lt;p&gt;2 使用现成的执行代码接口&lt;/p&gt;
+&lt;p&gt;3 自主开发 OJ 系统和代码沙箱&lt;/p&gt;
+&lt;p&gt;4 利用 AI 实现判题&lt;/p&gt;
+&lt;p&gt;5 通过类似爬虫的方式调用其他网站的判题接口&lt;/p&gt;
+&lt;p&gt;详情可以阅读：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3M/X19iaXo9TXpJMU5EY3pOVEF3TUE9PSZhbXA7bWlkPTIyNDc1NDg2MjkmYW1wO2lkeD0xJmFtcDtzbj1lYzI2MjA5OWNhOTQ1ZjRmZGVhODgzNzE3OGFjOGY4NyZhbXA7Y2hrc209ZTljMmQ5MjJkZWI1NTAzNDRiOWFhNzgwN2JhNzA5MmQzMjIwOWJiZGMyM2ZhNzc5MTRmOWZjMjQ0ZGY5ZjhmZDI3MzY5MmVmYjU0NiZhbXA7dG9rZW49NTkzOTIwODE2JmFtcDtsYW5nPXpoX0NOI3Jk&#34;&gt;OJ 系统的主流实现方案&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;请介绍一下判题的具体流程和方法？&lt;/p&gt;
+&lt;p&gt;判题步骤如下：&lt;/p&gt;
+&lt;p&gt;1 首先根据用户的提交 id 获取到用户的代码、选择的编程语言、题目测试用例、题目执行限制等信息。&lt;/p&gt;
+&lt;p&gt;2 判题服务调用代码沙箱服务执行用户代码，获取到每组测试用例对应的输出结果、代码执行信息（比如内存、时间占用等）。&lt;/p&gt;
+&lt;p&gt;3 对比用户的输出结果和正确的输出结果，并判断代码的执行信息是否符合题目执行限制，得出判题结果，并修改数据库内对应的提交信息。&lt;/p&gt;
+&lt;p&gt;请介绍一下代码沙箱的作用？代码沙箱和判题服务有什么关系？&lt;/p&gt;
+&lt;p&gt;代码沙箱的作用：在隔离的环境中编译并执行代码，得到运行结果。可以作为独立的项目或服务，提供给其他的需要执行代码的项目去使用。&lt;/p&gt;
+&lt;p&gt;代码沙箱和判题服务的关系：&lt;/p&gt;
+&lt;p&gt;●代码沙箱：只负责接受代码和输入，返回编译运行的结果，不负责判题&lt;/p&gt;
+&lt;p&gt;●判题模块：调用代码沙箱，把代码和输入用例交给代码沙箱去执行&lt;/p&gt;
+&lt;p&gt;具体交互过程如下图：&lt;/p&gt;
+&lt;p&gt;(一组程序输出，执行信息，执行状态，执行环境信息)&lt;/p&gt;
+&lt;p&gt;根据规则来判题 (比如对比输入输出是否一致&lt;/p&gt;
+&lt;p&gt;1, 发送题目的代码，题目的输入用例&lt;/p&gt;
+&lt;p&gt;二者通过 AP 交互，实现解帮&lt;/p&gt;
+&lt;p&gt;得到一组运行结果&lt;/p&gt;
+&lt;p&gt;3, 返回执行结果&lt;/p&gt;
+&lt;p&gt;, 编译执行代码&lt;/p&gt;
+&lt;p&gt;编程语言等&lt;/p&gt;
+&lt;p&gt;判题模块&lt;/p&gt;
+&lt;p&gt;代码沙箱&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2023/png/398476/1693981253621-34aabb1f-e39f-420b-bbbd-9702cbf7721e.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在开发过程中，你遇到过比较复杂的技术问题或挑战吗？如果有，请谈谈你是如何解决这些问题的？&lt;/p&gt;
+&lt;p&gt;可以从以上任意一道主观的面试题出发去讲，比如你在开发多种代码沙箱的实现方式（Java 原生和 Docker）发现有大量的重复代码，不利于修改和维护，想到使用模板方法来解决；或者改造项目为微服务后发现无法在题目服务中获取到用户信息，想到把项目登录方式由本地 Session 改造为基于 Redis 的分布式 Session 等。&lt;/p&gt;
+</content>
+        <updated>2023-09-29T13:45:48.000Z</updated>
+    </entry>
+</feed>

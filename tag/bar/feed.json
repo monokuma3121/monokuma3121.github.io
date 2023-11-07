@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Eucli • All posts by \"bar\" tag",
+    "title": "Eucliの小窝 • All posts by \"bar\" tag",
     "description": null,
     "home_page_url": "https://eucli.top",
     "items": [
@@ -13,18 +13,6 @@
             "tags": [
                 "Foo",
                 "Bar"
-            ]
-        },
-        {
-            "id": "https://eucli.top/2013/12/24/tags/",
-            "url": "https://eucli.top/2013/12/24/tags/",
-            "title": "Tags",
-            "date_published": "2013-12-24T15:29:53.000Z",
-            "content_html": "<p>This post contains 3 tags. Make sure your theme can display all of the tags.</p>\n",
-            "tags": [
-                "Foo",
-                "Bar",
-                "Baz"
             ]
         }
     ]

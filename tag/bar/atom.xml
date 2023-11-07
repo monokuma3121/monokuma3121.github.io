@@ -1,14 +1,30 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eucli.top</id>
-    <title>Eucli • Posts by &#34;bar&#34; tag</title>
+    <title>Eucliの小窝 • Posts by &#34;bar&#34; tag</title>
     <link href="https://eucli.top" />
     <updated>2018-07-24T15:31:06.000Z</updated>
+    <category term="CSS" />
+    <category term="JS" />
+    <category term="Nginx" />
+    <category term="React" />
+    <category term="nodejs" />
+    <category term="TS" />
+    <category term="算法" />
+    <category term="axios" />
+    <category term="vuerouter" />
+    <category term="express" />
     <category term="Foo" />
     <category term="Bar" />
-    <category term="Baz" />
-    <category term="Hexo" />
-    <category term="教程" />
+    <category term="数据库" />
+    <category term="实战" />
+    <category term="自动化" />
+    <category term="异步" />
+    <category term="小程序" />
+    <category term="快速搭建" />
+    <category term="服务端" />
+    <category term="计算机网络" />
+    <category term="后台管理系统" />
     <entry>
         <id>https://eucli.top/2018/07/24/markdown/</id>
         <title>Markdown Style test</title>
@@ -223,16 +239,5 @@ alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height
         <category term="Foo" />
         <category term="Bar" />
         <updated>2018-07-24T15:31:06.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://eucli.top/2013/12/24/tags/</id>
-        <title>Tags</title>
-        <link rel="alternate" href="https://eucli.top/2013/12/24/tags/"/>
-        <content type="html">&lt;p&gt;This post contains 3 tags. Make sure your theme can display all of the tags.&lt;/p&gt;
-</content>
-        <category term="Foo" />
-        <category term="Bar" />
-        <category term="Baz" />
-        <updated>2013-12-24T15:29:53.000Z</updated>
     </entry>
 </feed>
